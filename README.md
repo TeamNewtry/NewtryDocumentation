@@ -1,4 +1,4 @@
-# NewTryDocumentation - Software Requirements Specification 
+# NewtryDocumentation - Software Requirements Specification 
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
