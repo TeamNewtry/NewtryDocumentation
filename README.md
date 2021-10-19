@@ -30,20 +30,27 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
-The project is going to be realized as an React Native App.  
+The project is going to be realized as an Android App.  
   
 Actors of this App can be users or moderators.  
   
 Planned Subsystems are: 
-* Barcode scanning in App:  
-The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. These information consists of ingredients, nutritional values and a climate score.
-* :  
-The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen.
-
+* Notice Board:  
+The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
+* Account System:  
+Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
+* Friend List and User Rating:  
+Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
+* Connecting People:  
+The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
+* Storing Data:  
+User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
+* Finding your Game:  
+We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed. 
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -69,41 +76,39 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+Newtry helps you to check a product’s ingredients and nutritional values on the fly by simply scanning its barcode. This enables you to know every last detail of the food you’re eating in an easy and enjoyable way.
+But it’s not only about you, it’s about all of us! Newtry will help you to check a product’s climate impact. This way you can contribute towards a better tomorrow just by taking your smartphone with you on a shopping spree! And just between us two – who doesn’t already have it at hand while shopping?
+We want to enhance the feeling of unity even further by implementing a community feature in the future. This will add a function which will allow users to share their opinion on a product after buying it. Users will be able to see what other people like or dislike about their products. But for the scope of the Software Engineering class this project began seeing the light of the world, we’ll keep this feature as our special weapon a bit further down the line in the backlog.
 
 ### 2.2 Use Case Diagram
 
 ![OUCD]
 
 ### 2.3 Technology Stack
-The technology we use is:
+The technologies we use are:
 
 Backend:
--Gradle and Springboot
--H2 Database
+-Firebase
 
 Frontend:
--Android with Java and XML
+-React Native
+-Redux and redux-saga
+-Apisauce or Firebase SDK
+-react-native-I18n
 
 IDE:
--IntelliJ and Android Studio
+-Visual Studio Code
 
 Project Management:
 -YouTrack
 -GitHub
--Microsoft Teams
+-Discord
 
 Deployment:
--Travis CI
--Docker and Heroku
+-TODO
 
 Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+-Jest
 
 ## 3. Specific Requirements
 
