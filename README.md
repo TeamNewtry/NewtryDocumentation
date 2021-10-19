@@ -282,4 +282,4 @@ The Team Members are:
 - Norman Reimer
 
 <!-- Picture-Link definitions: -->
-[OUCD]: https://github.com/NewTryDocumentation/ressources/Overall_Use_Case_Diagram.pngg "Overall Use Case Diagram"
+[OUCD]: https://github.com/NewTryDocumentation/ressources/Overall_Use_Case_Diagram.png "Overall Use Case Diagram"
