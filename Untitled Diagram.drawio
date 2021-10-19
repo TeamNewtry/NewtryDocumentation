@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T10:01:06.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.5" etag="f-htlmvjxbnZlzVb8cnS" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T15:09:19.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="Rx3hd6DwRtzp7iQNNPO0" version="15.5.5" type="github">
   <diagram id="eaw8fCaroSGua-FuSO_3" name="Page-1">
-    <mxGraphModel dx="1422" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="25" value="Website" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="470" y="160" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="Registerd user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="26" value="Registered user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="555" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="27" value="&lt;font color=&quot;#ffffff&quot;&gt;Search products by search bar&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FFFFFF;" parent="1" vertex="1">
