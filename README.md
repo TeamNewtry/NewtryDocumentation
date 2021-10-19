@@ -30,27 +30,21 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Common Playground". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
-The project is going to be realized as an Android App.  
+The project is going to be realized as an React Native App.  
   
 Actors of this App can be users or moderators.  
   
 Planned Subsystems are: 
-* Notice Board:  
-The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
-* Account System:  
-Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
-* Friend List and User Rating:  
-Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
-* Connecting People:  
-The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
-* Storing Data:  
-User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
-* Finding your Game:  
-We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed. 
+* Barcode scanning in App:  
+The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. These information consists of ingredients, nutritional values and a climate score.
+* Community feature:  
+Registerd users get the ability to rate and comment products. 
+* Webiste:  
+On the webiste anonymous and registered user are able to search products via search bar. Furthermore there are information about our team.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -66,8 +60,10 @@ We need a tag system so everyone looking to join a game can search for the kind 
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Common Playground Blog](http://commonplayground.wordpress.com)    | 18.10.2018 | Common Playground Team    |
-| [GitHub](https://github.com/nilskre/CommonPlayground)              | 18.10.2018 | Common Playground Team    |
+| [Newtry Blog](https://newtry.ionae.de/?p=1)    | 19.10.2021 | Newtry Team    |
+| [GitHub](https://github.com/TeamNewTry)              | 19.10.2021 | Newtry Team    |
+| [YouTrack](https://dhbw-karlsruhe.myjetbrains.com/youtrack/projects/77651022-e156-4357-a251-e794beb94fa5) |19.10.2021| Newtry Team |
+| [Cute Kittens](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | 19.10.2021| Newtry Team |
 
 
 ### 1.5 Overview
@@ -88,27 +84,27 @@ We want to enhance the feeling of unity even further by implementing a community
 The technologies we use are:
 
 Backend:
--Firebase
+- Firebase
 
 Frontend:
--React Native
--Redux and redux-saga
--Apisauce or Firebase SDK
--react-native-I18n
+- React Native
+- Redux and redux-saga
+- Apisauce or Firebase SDK
+- react-native-I18n
 
 IDE:
--Visual Studio Code
+- Visual Studio Code
 
 Project Management:
--YouTrack
--GitHub
--Discord
+- YouTrack
+- GitHub
+- Discord
 
 Deployment:
--TODO
+- TODO
 
 Testing:
--Jest
+- Jest
 
 ## 3. Specific Requirements
 
