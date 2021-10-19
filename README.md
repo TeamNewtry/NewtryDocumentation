@@ -276,10 +276,10 @@ The development will follow the common clean code standards and naming conventio
 ## 4. Supporting Information
 For any further information you can contact the Newtry Team or check our [NewtryBlog](https://newtry.ionae.de/). 
 The Team Members are:
--Jona Kuhn
--Oliver Schirmer
--Jakob Braun
--Norman Reimer
+- Jona Kuhn
+- Oliver Schirmer
+- Jakob Braun
+- Norman Reimer
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/NewTryDocumentation/ressources/Overall_Use_Case_Diagram.pngg "Overall Use Case Diagram"
