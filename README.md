@@ -1,7 +1,6 @@
 # NewtryDocumentation - Software Requirements Specification 
 
 ## Table of contents
-- [Table of contents](#table-of-contents)
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
     - [Scope](#12-scope)
@@ -20,7 +19,7 @@
     - [Supportability](#35-supportability)
     - [Design Constraints](#36-design-constraints)
     - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
+    - [Purchased Components](#38-purchased-components)
     - [Interfaces](#39-interfaces)
     - [Licensing Requirements](#310-licensing-requirements)
     - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
@@ -30,11 +29,11 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project, its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
-The project is going to be realized as an React Native App.  
+The project is going to be realized as a React Native App.  
   
 Actors of this App can be users or moderators.  
   
@@ -200,7 +199,7 @@ The server shall be available 95% of the time. This also means we have to figure
 #### 3.3.2 Defect Rate
 Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
 
-### 3.4 Perfomance
+### 3.4 Performance
 
 #### 3.4.1 Capacity
 The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
@@ -208,8 +207,8 @@ The system should be able to manage thousands of requests. Also it should be pos
 #### 3.4.2 Storage 
 Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
 
-#### 3.4.3 App perfomance / Response time
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+#### 3.4.3 App performance / Response time
+To provide the best App performance we aim to keep the response time as low as possible. This will make the user experience much better.
 
 ### 3.5 Supportability
 
