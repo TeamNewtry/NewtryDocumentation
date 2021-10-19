@@ -21,9 +21,7 @@
     - [Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
     - [Purchased Components](#38-purchased-components)
     - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
+    - [Legal, Copyright And Other Notices](#310-legal-copyright-and-other-notices)
 - [Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
@@ -187,7 +185,7 @@ Full test coverage prevents bugs from sneaking into the app in the first place, 
 The modern and easy to use approach of the app is resembled in the UI just as in the app architecture. Therefore we will separate the different functionalities to follow a more modular development approach. This allows for more parallelization and working on a more narrow scope.
 
 Because we are programming an app that's inteded to be used on all mobile devices we chose React Native and therefore JavaScript. As React is only responsible for the "view" part, we'll be using Redux for state & data management. Redux on the other hand will be working with the Firebase SDK to access and manage the actual data in the backend.
-The supported Platforms will be based on the (minimum requirements of React)[https://github.com/facebook/react-native#-requirements]:
+The supported Platforms will be based on the [minimum requirements of React](https://github.com/facebook/react-native#-requirements):
 - Android 5.0
 - iOS 11.0
 
@@ -219,13 +217,10 @@ The app will be runnable on Android 4.4 and higher. iOS won't be featured at the
 #### 3.9.4 Communication Interfaces
 The server and hardware will communicate using the http protocol. 
 
-### 3.10 Licensing Requirements
-
-### 3.11 Legal, Copyright, and Other Notices
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
-
-### 3.12 Applicable Standards
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+### 3.10 Legal, Copyright, and Other Notices
+Copyright (c) 2021 Newtry
+This project and related files (such as logos and code in other repos) can not be copied and/or distributed without the express permission of Newtry.
+We do not take responsibilty for any incorrect data or errors in the application.
 
 ## 4. Supporting Information
 For any further information you can contact the Newtry Team or check our [NewtryBlog](https://newtry.ionae.de/). 
