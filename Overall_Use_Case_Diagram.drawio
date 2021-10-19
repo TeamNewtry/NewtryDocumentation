@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T15:09:19.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="Rx3hd6DwRtzp7iQNNPO0" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T15:27:58.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="t1RiQb4viNd7CjO4FUTt" version="15.5.6" type="github">
   <diagram id="eaw8fCaroSGua-FuSO_3" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="15" source="9" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="42" value="Nutritional values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
+        <mxCell id="42" value="Show nutritional values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
           <mxGeometry x="140" y="61" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="46" value="&lt;font color=&quot;#ffffff&quot;&gt;Climate impact&amp;nbsp;&lt;br&gt;score&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="15" vertex="1">
@@ -43,13 +43,13 @@
         <mxCell id="17" value="Community feature" style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotation=0;fontColor=#FFFF00;" parent="18" vertex="1">
           <mxGeometry width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="&lt;font color=&quot;#ffffff&quot;&gt;Write comments&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="18" vertex="1">
+        <mxCell id="20" value="&lt;font color=&quot;#ffffff&quot;&gt;Registration &amp;amp; Login&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="18" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="21" value="&lt;font color=&quot;#ffffff&quot;&gt;Rate products&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2e2e2e;strokeColor=#FFFFFF;" parent="18" vertex="1">
+        <mxCell id="21" value="&lt;font color=&quot;#ffffff&quot;&gt;Comments&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2e2e2e;strokeColor=#FFFFFF;" parent="18" vertex="1">
           <mxGeometry x="10" y="130" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="&lt;font color=&quot;#ffffff&quot;&gt;See comments&amp;nbsp;&lt;br&gt;and ratings&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="18" vertex="1">
+        <mxCell id="22" value="&lt;font color=&quot;#ffffff&quot;&gt;Ratings&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="18" vertex="1">
           <mxGeometry x="140" y="40" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="49" value="&lt;font color=&quot;#ffffff&quot;&gt;Purchase validation&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2E2e2e;strokeColor=#FFFFFF;" parent="18" vertex="1">
