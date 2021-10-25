@@ -33,15 +33,15 @@ This Software Requirements Specification (SRS) describes all specifications for 
 ### 1.2 Scope
 The project is going to be realized as a React Native App.  
   
-Actors of this App can be users or moderators.  
+Actors of this app registered or anonymous users.
   
 Planned Subsystems are: 
 * Barcode scanning in App:  
 The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. These information consists of ingredients, nutritional values and a climate score.
 * Community feature:  
-Registerd users get the ability to rate and comment products. 
-* Webiste:  
-On the webiste anonymous and registered user are able to search products via search bar. Furthermore there are information about our team.
+Registered users get the ability to rate and comment products. 
+* Website:  
+On the website anonymous and registered user are able to search products via search bar. Furthermore there are information about our team.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
