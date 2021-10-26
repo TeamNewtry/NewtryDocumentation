@@ -3,10 +3,11 @@ Accessing the more detailed product information requires being able to find a sp
 
 # 1 Flow of Events
 ## 1.1 Basic Flow
-- User clicks on "search bar" or "search" icon
-- User inputs a Productname or EAN into the "search bar"
-- List of products is updated live 
-- Name and picture of the product is shown
+- user clicks on "search bar"
+- user inputs a product name or EAN into the "search bar"
+- list of products is updated on-the-fly
+    - every result contains name and picture of the product
+- user clicks on a specific product which opens the detailed product page
 
 ### 1.1.1 Activity Diagram
 
@@ -17,25 +18,26 @@ TODO
 TODO
 
 ## 1.2 Alternative Flows
-If there are no productinformations:
-- User clicks on "search bar" or "search" icon
-- User inputs a Productname or EAN into the "search bar"
-- List of products is updated live 
-- Error message "no product found" is shown
+If there are no products that fit the search term:
+- user clicks on "search bar"
+- user inputs a product name or EAN into the "search bar"
+- list of products is updated on-the-fly
+- error message "no product found" is shown
 
-If there are mutlible products with the name ore EAN:
-- User clicks on "search bar" or "search" icon
-- User inputs a productname or EAN into the "search bar"
-- List of products is updated live  
-- A list of all found products is shown
+If there are multiple products with a matching name or EAN:
+- user clicks on "search bar"
+- user inputs a product name or EAN into the "search bar"
+- list of products is updated on-the-fly 
+- a list of all found products is shown
 
 
 # 2 Special Requirements
 (n/a)
 
 # 3 Preconditions
-- Productinfortmations are stored in the DB
-- User has the productname or EAN
+- the product is present in the database
+- user has the product name or EAN
+
 # 4 Postconditions
 (n/a)
  
