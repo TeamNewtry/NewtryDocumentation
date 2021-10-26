@@ -108,39 +108,27 @@ Testing:
 ### 3.1 Functionality
 This section will explain the different use cases you could see in the Use Case Diagram and their functionality.  
 Until **December** we plan to implement:
-- 3.1.1 Search products by search bar
-- 3.1.2 Show ingredients
-- 3.1.3 Show nutritional values
-- 3.1.4 Scan barcode
+- [Search products by search bar](./use_cases/UC1_Searchbar.md)
+- [Show ingredients](./use_cases/UC2_Ingredients.md)
+- [Show nutritional values](./use_cases/UC3_Nutrition.md)
+- [Scan barcode](./use_cases/UC4_Scanner.md)
 
 Until **June** we want to implement:
-- 3.1.5 Show climate impact score
-- 3.1.6 Registration & Login
-- 3.1.7 Submit & show ratings
-- 3.1.8 Write & show comments
+- 3.1.1 Show climate impact score
+- 3.1.2 Registration & Login
+- 3.1.3 Submit & show ratings
+- 3.1.4 Write & show comments
 
-#### 3.1.1 Search products by search bar
-Accessing the more detailed product information requires being able to find a specific product and access it's details. For this purpose a search bar which is able to find the product by its barcode number or product name has to be implemented.
-
-#### 3.1.2 Show ingredients
-Ingredients give you an overview of what is actually inside of what you are buying. Therefore it is one of the fundamental features. The list of ingredients is expected to be as complete as possible and therefore *may* include ingredients that don't have to be listed on the product itself because of legal regulations.
-
-#### 3.1.3 Show nutritional values
-This feature is closely related to the last one. Just as ingredients, the nutritional values of a product are fundamental when deciding on buying it. Nutrients listed here should not only be limited to what is shown on the product and thus *may* include additional nutritional values.
-
-#### 3.1.4 Scan barcode
-To ease the use of the app and make it more appealing to the user it should be possible to just scan the barcode of a product instead of having to use the search bar manually. All typical EAN/EAN-13 barcodes are expected to be supported.
-
-#### 3.1.5 Show climate impact score
+#### 3.1.1 Show climate impact score
 Additional information about a product as the climate impact score should also be included. On which factors this score will depend may vary as different aspects get more or less important to the community. For that reason we don't specify a specific list of factors and are going to disclose more information in the app itself. This also leaves room to expand this feature in the future.
 
-#### 3.1.6 Registration & Login
+#### 3.1.2 Registration & Login
 The app will provide a possibility to register, login and logout. This is necessary for creating a community. This also opens up ways to tailor the information you receive to your needs in the future.
 
-#### 3.1.7 Submit & show ratings
+#### 3.1.3 Submit & show ratings
 To enhance the feeling of unity, products should be able to receive ratings. Therefore a user will be able to see what others think of this product in general very quickly.
 
-#### 3.1.8 Write & show comments
+#### 3.1.4 Write & show comments
 When rating products users should also be able to give reason why they rated the product this way. This gives more in-depth insight into the community's opinion.
 
 ### 3.2 Usability
