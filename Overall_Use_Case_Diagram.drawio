@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T09:05:53.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="-pZ5GCoEMFOdEB3h0W-m" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:11:45.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="7gfc7woTE4rqX6DjTRLI" version="15.5.9" type="github">
   <diagram id="eaw8fCaroSGua-FuSO_3" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="9" value="Scan barcode" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
           <mxGeometry x="140.00472169899317" y="112.00625000000001" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="Show ingredients&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
+        <mxCell id="10" value="Show nutritional values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
           <mxGeometry x="5.894721698993159" y="112.00125" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Barcode scanning in app " style="text;align=left;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#3399FF;" parent="15" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="15" source="9" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="42" value="Show nutritional values" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
+        <mxCell id="42" value="Show ingredients" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="15" vertex="1">
           <mxGeometry x="140" y="35" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="46" value="&lt;font color=&quot;#ffffff&quot;&gt;Show climate impact&amp;nbsp;&lt;br&gt;score&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2E2E2E;strokeColor=#FFFFFF;" parent="15" vertex="1">
