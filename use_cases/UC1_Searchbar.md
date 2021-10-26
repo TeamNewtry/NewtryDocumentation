@@ -9,17 +9,6 @@ Accessing the more detailed product information requires being able to find a sp
 - Name and picture of the product is shown
 
 ### 1.1.1 Activity Diagram
-If there are no productinformations:
-- User clicks on "search bar" or "search" icon
-- User inputs a Productname or EAN into the "search bar"
-- User clicks on "search" or presses enter 
-- error message "no product found" is shown
-
-If there are no productinformations:
-- User clicks on "search bar" or "search" icon
-- User inputs a Productname or EAN into the "search bar"
-- User clicks on "search" or presses enter 
-- error message "no product found" is shown
 
 ### 1.1.2 Mock-up
 TODO
@@ -28,14 +17,25 @@ TODO
 TODO
 
 ## 1.2 Alternative Flows
-(n/a)
+If there are no productinformations:
+- User clicks on "search bar" or "search" icon
+- User inputs a Productname or EAN into the "search bar"
+- User clicks on "search" or presses enter 
+- Error message "no product found" is shown
+
+If there are mutlible products with the name ore EAN:
+- User clicks on "search bar" or "search" icon
+- User inputs a productname or EAN into the "search bar"
+- User clicks on "search" or presses enter 
+- A list of all found products is shown
+
 
 # 2 Special Requirements
 (n/a)
 
 # 3 Preconditions
-Productinfortmations are stored in the DB
-
+- Productinfortmations are stored in the DB
+- User has the productname or EAN
 # 4 Postconditions
 (n/a)
  
