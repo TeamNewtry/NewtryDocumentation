@@ -37,11 +37,11 @@ Actors of this app registered or anonymous users.
   
 Planned Subsystems are: 
 * Barcode scanning in App:  
-The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. These information consists of ingredients, nutritional values and a climate score.
+The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. This information consists of ingredients, nutritional values and a climate score.
 * Community feature:  
 Registered users get the ability to rate and comment products. 
 * Website:  
-On the website anonymous and registered user are able to search products via search bar. Furthermore there are information about our team.
+On the website anonymous and registered users are able to search products via search bar. Furthermore there is information about our team.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -87,7 +87,7 @@ Frontend:
 - React Native
 - Redux and redux-saga
 - Firebase SDK
-- react-native-i18n
+- React-native-i18n
 
 IDE:
 - Visual Studio Code
@@ -198,15 +198,7 @@ For now the app will be completely free to use. This may change in the future.
 ### 3.9 Interfaces
 
 #### 3.9.1 User Interfaces
-The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
-- Login - this page is used to log in 
-- Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
-- Settings - shows the settings
+Will be updated after Mockups are done
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
