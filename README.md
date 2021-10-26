@@ -223,4 +223,4 @@ The Team Members are:
 - Norman Reimer
 
 <!-- Picture-Link definitions: -->
-[OUCD]: ./resources/Overall_Use_Case_Diagram.drawio.png "Overall Use Case Diagram"
+[OUCD]: ./resources/Overall_Use_Case_Diagram.drawio.svg "Overall Use Case Diagram"
