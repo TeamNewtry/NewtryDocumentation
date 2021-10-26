@@ -5,7 +5,7 @@ Accessing the more detailed product information requires being able to find a sp
 ## 1.1 Basic Flow
 - User clicks on "search bar" or "search" icon
 - User inputs a Productname or EAN into the "search bar"
-- User clicks on "search" or presses enter 
+- List of products is updated live 
 - Name and picture of the product is shown
 
 ### 1.1.1 Activity Diagram
@@ -20,13 +20,13 @@ TODO
 If there are no productinformations:
 - User clicks on "search bar" or "search" icon
 - User inputs a Productname or EAN into the "search bar"
-- User clicks on "search" or presses enter 
+- List of products is updated live 
 - Error message "no product found" is shown
 
 If there are mutlible products with the name ore EAN:
 - User clicks on "search bar" or "search" icon
 - User inputs a productname or EAN into the "search bar"
-- User clicks on "search" or presses enter 
+- List of products is updated live  
 - A list of all found products is shown
 
 
