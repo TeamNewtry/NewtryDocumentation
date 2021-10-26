@@ -19,14 +19,14 @@ TODO
 ## 1.2 Alternative Flows
 (n/a)
 
-# 3. Special Requirements
+# 2. Special Requirements
 (n/a)
 
-# 4. Preconditions
+# 3. Preconditions
 TODO
 
-# 5. Postconditions
+# 4. Postconditions
 (n/a)
  
-# 6. Extension Points
+# 5. Extension Points
 (n/a)
