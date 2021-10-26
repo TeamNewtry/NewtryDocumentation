@@ -16,7 +16,7 @@ Ingredients give you an overview of what is actually inside of what you are buyi
 ![Activity Diagram](../resources/UC2_Ingredients.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Ingredients Screenshot](../resources/Ingredients.png)
+![Ingredients Screenshot](../resources/Real_ingredients.png)
 
 ### 1.1.3 Narrative
 TODO
