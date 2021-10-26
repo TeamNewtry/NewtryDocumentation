@@ -185,7 +185,7 @@ Full test coverage prevents bugs from sneaking into the app in the first place, 
 The modern and easy to use approach of the app is resembled in the UI just as in the app architecture. Therefore we will separate the different functionalities to follow a more modular development approach. This allows for more parallelization and working on a more narrow scope.
 
 Because we are programming an app that's inteded to be used on all mobile devices we chose React Native and therefore JavaScript. As React is only responsible for the "view" part, we'll be using Redux for state & data management. Redux on the other hand will be working with the Firebase SDK to access and manage the actual data in the backend.
-The supported Platforms will be based on the [minimum requirements of React](https://github.com/facebook/react-native#-requirements):
+The supported Platforms will be based on the [minimum requirements of React Native](https://github.com/facebook/react-native#-requirements):
 - Android 5.0
 - iOS 11.0
 
