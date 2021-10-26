@@ -131,7 +131,7 @@ This feature is closely related to the last one. Just as ingredients, the nutrit
 #### 3.1.4 Scan barcode
 To ease the use of the app and make it more appealing to the user it should be possible to just scan the barcode of a product instead of having to use the search bar manually. All typical EAN/EAN-13 barcodes are expected to be supported.
 
-#### 3.1.5 Climate impact score
+#### 3.1.5 Show climate impact score
 Additional information about a product as the climate impact score should also be included. On which factors this score will depend may vary as different aspects get more or less important to the community. For that reason we don't specify a specific list of factors and are going to disclose more information in the app itself. This also leaves room to expand this feature in the future.
 
 #### 3.1.6 Registration & Login
