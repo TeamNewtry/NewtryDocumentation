@@ -9,10 +9,10 @@ To ease the use of the app and make it more appealing to the user it should be p
 - product page belonging to the scanned barcode is opened
 
 ### 1.1.1 Activity Diagram
-TODO
+![Activity Diagram of Scanner](../resources/UC4_Scanner.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Image of Scanner](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Scan.png)
+![Image of Scanner](../resources/Scan.png)
 
 ### 1.1.3 Narrative
 TODO
