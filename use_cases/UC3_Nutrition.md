@@ -21,7 +21,7 @@ Basic key figures are:
 TODO
 
 ### 1.1.2 Mock-up
-TODO
+![Ingredients Screenshot](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Ingredients.png)
 
 ### 1.1.3 Narrative
 TODO
