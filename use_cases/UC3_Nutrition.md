@@ -1,7 +1,7 @@
 # Show nutritional values
 This feature is closely related to [Show ingredients](./UC2_Ingredients.md). Just as ingredients, the nutritional values of a product are fundamental when deciding on buying it. Nutrients listed here should not only be limited to what is shown on the product and thus may include additional nutritional values.
 Basic key figures are:
-- Calorific value
+- Calorific Value
 - Total Fat
     - Saturated Fat
 - Total Carbohydrates
