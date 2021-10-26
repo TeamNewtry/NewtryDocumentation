@@ -12,7 +12,7 @@ Accessing the more detailed product information requires being able to find a sp
 ### 1.1.1 Activity Diagram
 
 ### 1.1.2 Mock-up
-TODO
+![Mock-up Screenshot](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Searchbar.png)
 
 ### 1.1.3 Narrative
 TODO
