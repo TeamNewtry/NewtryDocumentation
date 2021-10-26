@@ -1,7 +1,6 @@
-# NewTryDocumentation - Software Requirements Specification 
+# NewtryDocumentation - Software Requirements Specification 
 
 ## Table of contents
-- [Table of contents](#table-of-contents)
 - [Introduction](#1-introduction)
     - [Purpose](#11-purpose)
     - [Scope](#12-scope)
@@ -19,31 +18,30 @@
     - [Performance](#34-performance)
     - [Supportability](#35-supportability)
     - [Design Constraints](#36-design-constraints)
-    - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
+    - [Online User Documentation and Help System Requirements](#37-online-user-documentation-and-help-system-requirements)
+    - [Purchased Components](#38-purchased-components)
     - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
+    - [Legal, Copyright And Other Notices](#310-legal-copyright-and-other-notices)
 - [Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
 
 ### 1.1 Purpose
-This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project and its vision, detailed information about the planned features and boundary conditions of the development process.
+This Software Requirements Specification (SRS) describes all specifications for the application "Newtry". It includes an overview about this project, its vision, detailed information about the planned features and boundary conditions of the development process.
 
 
 ### 1.2 Scope
-The project is going to be realized as an React Native App.  
+The project is going to be realized as a React Native App.  
   
-Actors of this App can be users or moderators.  
+Actors of this app registered or anonymous users.
   
 Planned Subsystems are: 
 * Barcode scanning in App:  
-The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. These information consists of ingredients, nutritional values and a climate score.
-* :  
-The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen.
-
+The Barcode scanning is the essential part of the application. Scanning products leads to information about the product showing on the screen. This information consists of ingredients, nutritional values and a climate score.
+* Community feature:  
+Registered users get the ability to rate and comment products. 
+* Website:  
+On the website anonymous and registered users are able to search products via search bar. Furthermore there is information about our team.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -59,8 +57,10 @@ The Barcode scanning is the essential part of the application. Scanning products
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Common Playground Blog](http://commonplayground.wordpress.com)    | 18.10.2018 | Common Playground Team    |
-| [GitHub](https://github.com/nilskre/CommonPlayground)              | 18.10.2018 | Common Playground Team    |
+| [Newtry Blog](https://newtry.ionae.de/?p=1)    | 19.10.2021 | Newtry Team    |
+| [GitHub](https://github.com/TeamNewTry)              | 19.10.2021 | Newtry Team    |
+| [YouTrack](https://dhbw-karlsruhe.myjetbrains.com/youtrack/projects/77651022-e156-4357-a251-e794beb94fa5) |19.10.2021| Newtry Team |
+| [Cute Kittens](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | 19.10.2021| Newtry Team |
 
 
 ### 1.5 Overview
@@ -69,182 +69,139 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
+Newtry helps you to check a product’s ingredients and nutritional values on the fly by simply scanning its barcode. This enables you to know every last detail of the food you’re eating in an easy and enjoyable way.
+But it’s not only about you, it’s about all of us! Newtry will help you to check a product’s climate impact. This way you can contribute towards a better tomorrow just by taking your smartphone with you on a shopping spree! And just between us two – who doesn’t already have it at hand while shopping?
+We want to enhance the feeling of unity even further by implementing a community feature in the future. This will add a function which will allow users to share their opinion on a product after buying it. Users will be able to see what other people like or dislike about their products. But for the scope of the Software Engineering class this project began seeing the light of the world, we’ll keep this feature as our special weapon a bit further down the line in the backlog.
 
 ### 2.2 Use Case Diagram
 
 ![OUCD]
 
 ### 2.3 Technology Stack
-The technology we use is:
+The technologies we use are:
 
 Backend:
--Gradle and Springboot
--H2 Database
+- Firebase
 
 Frontend:
--Android with Java and XML
+- React Native
+- Redux and redux-saga
+- Firebase SDK
+- React-native-i18n
 
 IDE:
--IntelliJ and Android Studio
+- Visual Studio Code
 
 Project Management:
--YouTrack
--GitHub
--Microsoft Teams
+- YouTrack
+- GitHub
+- Discord
 
 Deployment:
--Travis CI
--Docker and Heroku
+- TODO
 
 Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+- Jest
 
 ## 3. Specific Requirements
 
 ### 3.1 Functionality
-This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
-Until December we plan to implement:
-- 3.1.1 Posting a session
-- 3.1.2 Getting an overview
-- 3.1.3 Creating an account
-- 3.1.4 Logging in
-- 3.1.5 Logging out
+This section will explain the different use cases you could see in the Use Case Diagram and their functionality.  
+Until **December** we plan to implement:
+- 3.1.1 Search products by search bar
+- 3.1.2 Show ingredients
+- 3.1.3 Show nutritional values
+- 3.1.4 Scan barcode
 
-Until June, we want to implement:
-- 3.1.6 Joining a session
-- 3.1.7 Keeping track of your sessions
-- 3.1.8 Leaving a session
-- 3.1.9 Finding a session
-- 3.1.10 Getting in touch
+Until **June** we want to implement:
+- 3.1.5 Show climate impact score
+- 3.1.6 Registration & Login
+- 3.1.7 Submit & show ratings
+- 3.1.8 Write & show comments
 
-#### 3.1.1 Posting a session
-This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
+#### 3.1.1 Search products by search bar
+Accessing the more detailed product information requires being able to find a specific product and access it's details. For this purpose a search bar which is able to find the product by its barcode number or product name has to be implemented.
 
-[Posting a session](./use_cases/UC1_Post_Session.md)
+#### 3.1.2 Show ingredients
+Ingredients give you an overview of what is actually inside of what you are buying. Therefore it is one of the fundamental features. The list of ingredients is expected to be as complete as possible and therefore *may* include ingredients that don't have to be listed on the product itself because of legal regulations.
 
-#### 3.1.2 Getting an overview
-This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
+#### 3.1.3 Show nutritional values
+This feature is closely related to the last one. Just as ingredients, the nutritional values of a product are fundamental when deciding on buying it. Nutrients listed here should not only be limited to what is shown on the product and thus *may* include additional nutritional values.
 
-[Session overview](./use_cases/UC3_Session_Overview.md)
+#### 3.1.4 Scan barcode
+To ease the use of the app and make it more appealing to the user it should be possible to just scan the barcode of a product instead of having to use the search bar manually. All typical EAN/EAN-13 barcodes are expected to be supported.
 
-#### 3.1.3 Creating an account
-To identify all useres we need an account system. This account system enables us to build important functions such as joining a session, leaving a session or a personalized overview over all sessions (Keeping track of your sessions).
+#### 3.1.5 Show climate impact score
+Additional information about a product as the climate impact score should also be included. On which factors this score will depend may vary as different aspects get more or less important to the community. For that reason we don't specify a specific list of factors and are going to disclose more information in the app itself. This also leaves room to expand this feature in the future.
 
-[Create an account](./use_cases/UC4_Create_Account.md)
+#### 3.1.6 Registration & Login
+The app will provide a possibility to register, login and logout. This is necessary for creating a community. This also opens up ways to tailor the information you receive to your needs in the future.
 
-#### 3.1.4 Logging in
-The app will provide the possibility to register and log in. This will also make the usability easier when a user wants to manage his sessions, post or join a session because they don't have to enter their mail address every time.
+#### 3.1.7 Submit & show ratings
+To enhance the feeling of unity, products should be able to receive ratings. Therefore a user will be able to see what others think of this product in general very quickly.
 
-[Login](./use_cases/UC5_Login.md)
-
-#### 3.1.5 Logging out
-In case you share your phone, have multiple accounts or just want to be cautius about your privacy you should be able to manually log out.
-
-[Logout](./use_cases/UC6_Logout.md)
-
-#### 3.1.6 Joining a session
-There is also the possibility to join an existing game session. Therefore, the user can select a specific session.
-
-[Join a session](./use_cases/UC2_Join_Session.md)
-
-#### 3.1.7 Keeping track of your sessions
-The app provides the user with a seperate page view where they get an overview of all sessions they posted or joined. When the user clicks on a session, he can also see who joined his posted sessions.
-
-[Keeping track of your sessions](./use_cases/UC7_Keeping_Track.md)
-
-#### 3.1.8 Leaving a session
-The user gets also the possibility to delete a session he posted or to leave a session he joined.
-
-[Leaving a session](./use_cases/UC8_Leave_Session.md)
-
-#### 3.1.9 Finding a session
-Based on the overview over all sessions this features enables the user to find sessions by specific parameters. Therefore, the user can find a session by tags or other parameters like date. Later on, finding a session will be provided by geolocalization that the users can search for a session in a specific area.
-
-[Finding a session](./use_cases/UC9_Find_Session.md)
-
-#### 3.1.10 Getting in touch
-There must be the possibility that two people who want to play together can communicate with each other. The player who joins the session gets the possibility to contact the owner and vice versa. Later on, when we will have implemented profiles, then they will form another way to communicate with each other.
-
-[Getting in Touch](./use_cases/UC10_Getting_In_Touch.md)
-
-#### 3.1.11 Presenting yourself and checking out others
-With the possibility to log in there comes another functionality, the profile. Every user will have their own profile where they can write some informations about themselves. Because of the privacy policy in Europe, the user has the possibility to only write the information they want other people to see. Using the profile, users can also check out other players and learn e.g. their favorite games.
-
-#### 3.1.12 Reporting users and managing friends
-After a session, the app provides the users with the possibility to report the other participants. This is helpful because we want a community with fair players. Additionally, when they found an interesting person they can also add them to their friend list which also has a seperate page view.
-
-#### 3.1.13 Banning users and deleting posts
-There are also some functionalities for the admins. They will get the possibility to ban users and to delete any posts.
+#### 3.1.8 Write & show comments
+When rating products users should also be able to give reason why they rated the product this way. This gives more in-depth insight into the community's opinion.
 
 ### 3.2 Usability
-We plan on designing the user interface as intuitive and self-explanatory as possible to make the user feel as comfortable as possible using the app. Though an FAQ document will be available, it should not be necessary to use it.
+The app's foundation is an easy-to-use, no-explanation-needed interface which people at all age are able to use with joy.
+With that in mind we focus on two pillars:
 
-#### 3.2.1 No training time needed
-Our goal is that a user installs the android application, opens it and is able to use all features without any explanation or help.
+#### 3.2.1 Simplicity
+The goal is that the user is able to install the app and use it right away: No explanation needed
+This requires careful structural design.
 
-#### 3.2.2 Familiar Feeling
-We want to implement an app with familiar designs and functions. This way the user is able to interact in familiar ways with the app without having to get to know new interfaces.
+#### 3.2.2 Familiarity
+Building an interface that feels familiar to the user is extremely important. This not only speeds up the time required to get used to the workflow of the app but aids the user in intuitively finding his way around the app.
 
 ### 3.3 Reliability
 
 #### 3.3.1 Availability
-The server shall be available 95% of the time. This also means we have to figure out the "rush hours" of our app because the downtime of the server is only tolerable when as few as possible players want to use the app.
+These days an availability of 95% is standard. To achieve this a resilient system has to be built. Depending on the amount of users and their behavior, different scalability and elasticity techniques have to be used, such as load balancers and clustering.
 
 #### 3.3.2 Defect Rate
-Our goal is that we have no loss of any data. This is important so that the game sessions can carry on, even after a downtime of the server.
+As information about products (general and community-based) are the foundation of our app, data loss is intolerable and must be prevented at all cost.
 
-### 3.4 Perfomance
+### 3.4 Performance
 
 #### 3.4.1 Capacity
-The system should be able to manage thousands of requests. Also it should be possible to register as many users as necessary.
+The system should be able to manage thousands of requests per minute, most of them retrieving information as most of the users will most likely be using the app just to retrieve, not contribute information. Scalability and elasticity are key components here as well.
 
-#### 3.4.2 Storage 
-Smartphones don't provide much storage. Therefore we are aiming to keep the needed storage as small as possible.
+#### 3.4.2 Storage
+As all data will be hosted on a centralized server/cluster this needs to be able to store this amount of information. Depending on how large the user base gets this ranges from a few megabytes to gigabytes. Again scalability and elasticity are key components here.
 
-#### 3.4.3 App perfomance / Response time
-To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
+#### 3.4.3 App performance / Response time
+While shopping users expect a flawlessly working app with low response times. Therefore content should be distributed globally via according edge servers near the end user. This guarantees low response times. The app has to be implemented efficiently as well to prevent freezes and minimize loading times.
 
 ### 3.5 Supportability
 
 #### 3.5.1 Coding Standards
-We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further developement much easier.
+A clean code base speeds up the development process of any project dramatically. Using modern techniques ensures general reliability, maximum readability and an easy & quickly expandable/adaptable code base. This requires standards to be enforced by every member of the team. Typical standards include:
+- Git conventions (commit messages, branch naming, overall workflow)
+- Architectural conventions (MVC, MVVM...)
+- Language conventions (naming, formatting, architecture...)
 
 #### 3.5.2 Testing Strategy
-The application will have a high test coverage and all important functionalities and edge cases should be tested. Further mistakes in the implementation will be discovered instantly and it will be easy to locate the error. 
+Full test coverage prevents bugs from sneaking into the app in the first place, but also from reoccuring. This again drastically speeds up the overall development process, but requires strict enforcement of every member of the team. Keyphrase here is test driven development (TDD).
 
 ### 3.6 Design Constraints
-We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
+The modern and easy to use approach of the app is resembled in the UI just as in the app architecture. Therefore we will separate the different functionalities to follow a more modular development approach. This allows for more parallelization and working on a more narrow scope.
 
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format. 
-The supported Platforms will be:
-- Android 4.4 and higher
-- Java 8 and higher
+Because we are programming an app that's inteded to be used on all mobile devices we chose React Native and therefore JavaScript. As React is only responsible for the "view" part, we'll be using Redux for state & data management. Redux on the other hand will be working with the Firebase SDK to access and manage the actual data in the backend.
+The supported Platforms will be based on the [minimum requirements of React Native](https://github.com/facebook/react-native#-requirements):
+- Android 5.0
+- iOS 11.0
 
-### 3.7 On-line User Documentation and Help System Requirements
-The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
+### 3.7 Online User Documentation and Help System Requirements
+The app usage will focus on intuitive and simple design. No further documentation will be required. For further assistance contact data will be provided.
 
 ### 3.8 Purchased Components
-We don't have any purchased components yet. If there will be purchased components in the future we will list them here.
+For now the app will be completely free to use. This may change in the future.
 
 ### 3.9 Interfaces
 
 #### 3.9.1 User Interfaces
-The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Session Page - shows detailed information about the session and makes it possible to connect session attendants for example via messaging system
-- Login - this page is used to log in 
-- Register - provides a registration form
-- Overwiew of personal sessions - shows all the sessions a user participates in
-- Friend List - friends can be added
-- Profile - makes it possible to post information about yourself, might provide messaging feature, also shows additional information about users (for example: Language, country, favorite games, etc.)
-- Settings - shows the settings
+Will be updated after Mockups are done
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
@@ -255,13 +212,10 @@ The app will be runnable on Android 4.4 and higher. iOS won't be featured at the
 #### 3.9.4 Communication Interfaces
 The server and hardware will communicate using the http protocol. 
 
-### 3.10 Licensing Requirements
-
-### 3.11 Legal, Copyright, and Other Notices
-The logo is licensed to the Common Playground Team and is only allowed to use for the application. We do not take responsibilty for any incorrect data or errors in the application.
-
-### 3.12 Applicable Standards
-The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
+### 3.10 Legal, Copyright, and Other Notices
+Copyright (c) 2021 Newtry
+This project and related files (such as logos and code in other repos) can not be copied and/or distributed without the express permission of Newtry.
+We do not take responsibilty for any incorrect data or errors in the application.
 
 ## 4. Supporting Information
 For any further information you can contact the Newtry Team or check our [NewtryBlog](https://newtry.ionae.de/). 
@@ -272,4 +226,4 @@ The Team Members are:
 - Norman Reimer
 
 <!-- Picture-Link definitions: -->
-[OUCD]: https://github.com/TeamNewTry/NewTryDocumentation/blob/main/ressources/Overall_Use_Case_Diagram.png "Overall Use Case Diagram"
+[OUCD]: ./resources/Overall_Use_Case_Diagram.drawio.svg "Overall Use Case Diagram"
