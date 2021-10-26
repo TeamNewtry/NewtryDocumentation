@@ -12,7 +12,7 @@ To ease the use of the app and make it more appealing to the user it should be p
 TODO
 
 ### 1.1.2 Mock-up
-TODO
+![Image of Scanner](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Scan.png)
 
 ### 1.1.3 Narrative
 TODO
