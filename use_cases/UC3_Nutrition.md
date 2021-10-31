@@ -21,7 +21,7 @@ Basic key figures are:
 ![Activity Diagram of Nutrition](../resources/UC3_Nutrition.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Ingredients Screenshot](../resources/Ingredients.png)
+![Ingredients Screenshot](../resources/Nutrition.png)
 
 ### 1.1.3 Narrative
 TODO
