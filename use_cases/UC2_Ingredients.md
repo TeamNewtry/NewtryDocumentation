@@ -19,7 +19,21 @@ Ingredients give you an overview of what is actually inside of what you are buyi
 ![Ingredients Screenshot](../resources/Ingredients.png)
 
 ### 1.1.3 Narrative
-TODO
+```gherkin
+Feature: Ingredients
+
+    As any user I want to be able to see the ingredients of the scanned/searched product
+
+    Background: 
+        Given I am on the product page
+
+    Scenario: Show product information
+        When product page was opened
+        Given information about ingredients was found
+        Then list ingredients
+        Given information about ingredients was not found
+        Then show info that no ingredients are present
+```
 
 ## 1.2 Alternative Flows
 If no information for a specific product is present:
