@@ -10,9 +10,9 @@ Accessing the more detailed product information requires being able to find a sp
 - user clicks on a specific product which opens the detailed product page
 
 ### 1.1.1 Activity Diagram
-
+![Activity Diagram](../resources/UC1_Searchbar.drawio.svg)
 ### 1.1.2 Mock-up
-![Mock-up Screenshot](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Searchbar.png)
+![Mock-up Screenshot](../resources/Searchbar.png)
 
 ### 1.1.3 Narrative
 TODO

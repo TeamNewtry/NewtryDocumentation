@@ -13,10 +13,10 @@ Ingredients give you an overview of what is actually inside of what you are buyi
 - information is shown in dedicated section of product page
 
 ### 1.1.1 Activity Diagram
-TODO
+![Activity Diagram](../resources/UC2_Ingredients.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Ingredients Screenshot](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Ingredients.png)
+![Ingredients Screenshot](../resources/Ingredients.png)
 
 ### 1.1.3 Narrative
 TODO

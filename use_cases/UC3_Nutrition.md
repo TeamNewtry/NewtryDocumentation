@@ -18,10 +18,10 @@ Basic key figures are:
 - information is shown in dedicated section of product page
 
 ### 1.1.1 Activity Diagram
-TODO
+![Activity Diagram of Nutrition](../resources/UC3_Nutrition.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Ingredients Screenshot](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/Ingredients.png)
+![Ingredients Screenshot](../resources/Nutrition.png)
 
 ### 1.1.3 Narrative
 TODO
