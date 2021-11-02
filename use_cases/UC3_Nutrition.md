@@ -24,7 +24,21 @@ Basic key figures are:
 ![Ingredients Screenshot](../resources/Nutrition.png)
 
 ### 1.1.3 Narrative
-TODO
+```gherkin
+Feature: Nutrition
+
+    As any user I want to be able to see the Nutrition of the scanned/searched product
+
+    Background: 
+        Given I am on the product page
+
+    Scenario: Show product information
+        When product page was opened
+        Given information about nutritional values were found
+        Then list nutritional values
+        Given information about nutritional values was not found
+        Then show info that no nutritional values are present
+```
 
 ## 1.2 Alternative Flows
 If no information for a specific product is present:
