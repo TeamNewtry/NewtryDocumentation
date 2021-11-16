@@ -22,7 +22,9 @@
     - [Purchased Components](#38-purchased-components)
     - [Interfaces](#39-interfaces)
     - [Legal, Copyright And Other Notices](#310-legal-copyright-and-other-notices)
-- [Supporting Information](#4-supporting-information)
+- [Implementation](#4-implementation)
+    - [Class Diagram](#41-class-diagram) 
+- [Supporting Information](#5-supporting-information)
 
 ## 1. Introduction
 
@@ -74,7 +76,6 @@ But it’s not only about you, it’s about all of us! Newtry will help you to c
 We want to enhance the feeling of unity even further by implementing a community feature in the future. This will add a function which will allow users to share their opinion on a product after buying it. Users will be able to see what other people like or dislike about their products. But for the scope of the Software Engineering class this project began seeing the light of the world, we’ll keep this feature as our special weapon a bit further down the line in the backlog.
 
 ### 2.2 Use Case Diagram
-
 ![OUCD]
 
 ### 2.3 Technology Stack
@@ -205,7 +206,12 @@ Copyright (c) 2021 Newtry
 This project and related files (such as logos and code in other repos) can not be copied and/or distributed without the express permission of Newtry.
 We do not take responsibilty for any incorrect data or errors in the application.
 
-## 4. Supporting Information
+## 4. Implementation
+
+### 4.1 Class Diagram
+![CD]
+
+## 5. Supporting Information
 For any further information you can contact the Newtry Team or check our [NewtryBlog](https://newtry.ionae.de/). 
 The Team Members are:
 - Jona Kuhn
@@ -215,3 +221,4 @@ The Team Members are:
 
 <!-- Picture-Link definitions: -->
 [OUCD]: ./resources/Overall_Use_Case_Diagram.drawio.svg "Overall Use Case Diagram"
+[CD]: ./resources/Class_Diagram.drawio.svg "Class Diagram"
