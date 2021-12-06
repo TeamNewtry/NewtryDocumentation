@@ -42,6 +42,7 @@ This document describes the architecture of the PiXS project.
 | webapp      | Web Application                                  |
 | API         | Application Programming Interface                |
 | UI          | User Interface                                   |
+| APK         | Android Package Kit 	                           |
 
 ### 1.4 References
 
@@ -112,7 +113,9 @@ n/a
 
 ## 7. Deployment View
 
-todo
+![Deployment](https://raw.githubusercontent.com/TeamNewtry/NewtryDocumentation/main/resources/Deployment.drawio.svg "Deployment")
+
+As you can see on the picture above, deploying a React Native app is actually quite easy. The first thing you got to do is generating a Java generated signing key which is a keystore file used to generate a React Native executable  binary for Android. This keystore has to be added to your project afterwards. Gradle will use this keystore to generate an APK. You don't have to worry about signung and other building tasks because Gradle will do everything for you. 
 
 ## 8. Implementation View
 
