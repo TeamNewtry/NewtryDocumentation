@@ -104,7 +104,7 @@ For further information about how each use case is defined, please refer to our 
 ## 5. Logical View
 
 ![Architecture](https://raw.githubusercontent.com/TeamNewtry/NewtryDocumentation/main/resources/Class_Diagram_Architecture.drawio.svg "Architecture")
-The picture above represents our implementation of the Flux architecture descibed in [Architectural Representation](#2-architectural-representation).
+The picture above represents our implementation of the Flux architecture described in [Architectural Representation](#2-architectural-representation).
 
 ## 6. Process View
 
@@ -122,7 +122,7 @@ n/a
 
 ## 9. Data View
 
-Our scope for the first semester only requires a very simple database structure which consists of a product's ID and name in order to be able to search for a product. The information which is related to a product will be directly fetched from [Open Food Facts](https://world.openfoodfacts.org/) to ensure most recent information. As information on their platform is stored in a NoSQL-database it's impossible to offer a relational database scheme uniform for each product. Besides that they offer a [specification](https://wiki.openfoodfacts.org/API_Fields) for most of the fields found in a product's API data. Our scope for the second semester requires some additional data about the products which we will store in the current entry holding their ID and name. This way we can dynamically join information from both sources and are able to reduce redundancy and maximize consistency.
+Our scope for the first semester only requires a very simple database structure which consists of a product's ID and name in order to be able to search for a product. The information which is related to a product will be directly fetched from [Open Food Facts](https://world.openfoodfacts.org/) to ensure most recent information. As information on their platform is stored in a NoSQL-database it's impossible to offer a relational database scheme uniform for each product. Besides that, they offer a [specification](https://wiki.openfoodfacts.org/API_Fields) for most of the fields found in a product's API data. Our scope for the second semester requires some additional data about the products which we will store in the current entry holding their ID and name. This way we can dynamically join information from both sources and are able to reduce redundancy and maximize consistency.
 
 ## 10. Size and Performance
 
