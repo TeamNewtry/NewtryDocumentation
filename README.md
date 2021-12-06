@@ -92,6 +92,7 @@ Frontend:
 
 IDE:
 - Visual Studio Code
+- Webstorm
 
 Project Management:
 - YouTrack
