@@ -46,14 +46,14 @@ This document describes the architecture of the PiXS project.
 ### 1.4 References
 
 | Title                                                                                                                                                   | Date       | Publishing organization |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------- | --- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ----------------------- |
 | [Blog](https://newtry.ionae.de/)                                                                                                                        | 06.12.2021 |  Newtry                 |
 | [GitHub](hhttps://github.com/TeamNewtry)                                                                                                                | 06.12.2021 |  Newtry                 |
 | [UC searchbar](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/use_cases/UC1_Searchbar.md)                                                  | 06.12.2021 |  Newtry                 |
 | [UC show ingredients](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/use_cases/UC2_Ingredients.md)                                         | 06.12.2021 |  Newtry                 |
 | [UC show nutritional values](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/use_cases/UC3_Nutrition.md)                                    | 06.12.2021 |  Newtry                 |
 | [UC scan barcode](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/use_cases/UC4_Scanner.md)                                                 | 06.12.2021 |  Newtry                 |
-| [FLUX](https://github.com/facebook/flux)                                                                                                                | 06.12.2021 |  Facebook               |     |
+| [FLUX](https://github.com/facebook/flux)                                                                                                                | 06.12.2021 |  Facebook               |
 | [React Native](https://reactnative.dev/)                                                                                                                | 06.12.2021 |  Facebook               |
 | [Firebase](https://firebase.google.com/?gclid=CjwKCAiAhreNBhAYEiwAFGGKPE-SiiK9_HLwhicpHbivI4lqpKCmBZorTRwvp3Sm37jP4ZmqNTbdRhoC0ScQAvD_BwE&gclsrc=aw.ds) | 06.12.2021 |  Google                 |
 
@@ -93,6 +93,7 @@ The picture above shows an exemplary firebase architecture. In our case the mobi
 ## 4. Use-Case View
 
 Below, you can see our UCD.
+
 ![Use case diagram](https://raw.githubusercontent.com/TeamNewtry/NewtryDocumentation/main/resources/Overall_Use_Case_Diagram.drawio.svg)
 
 ### 4.1 Use-Case Realizations
@@ -119,7 +120,7 @@ n/a
 
 ## 9. Data View
 
-Our scope for the first semester only needs a very simple database structure which consists of ID and name in order to find a product. The information which is related to a product will looks similar to [Open food facts](https://wiki.openfoodfacts.org/API_Fields "Open food facts"). Our scope for the second semester needs some additional data about the users which is why will join the "user table" with our current table in the future.
+Our scope for the first semester only needs a very simple database structure which consists of ID and name in order to find a product. The information which is related to a product will look similar to [Open food facts](https://wiki.openfoodfacts.org/API_Fields "Open food facts"). Our scope for the second semester needs some additional data about the users which is why will join the "user table" with our current table in the future.
 
 ## 10. Size and Performance
 
