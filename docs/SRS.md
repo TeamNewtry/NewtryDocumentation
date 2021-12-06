@@ -110,10 +110,10 @@ Testing:
 ### 3.1 Functionality
 This section will explain the different use cases you could see in the Use Case Diagram and their functionality.  
 Until **December** we plan to implement:
-- [Search products by search bar](./use_cases/UC1_Searchbar.md)
-- [Show ingredients](./use_cases/UC2_Ingredients.md)
-- [Show nutritional values](./use_cases/UC3_Nutrition.md)
-- [Scan barcode](./use_cases/UC4_Scanner.md)
+- [Search products by search bar](../use_cases/UC1_Searchbar.md)
+- [Show ingredients](../use_cases/UC2_Ingredients.md)
+- [Show nutritional values](../use_cases/UC3_Nutrition.md)
+- [Scan barcode](../use_cases/UC4_Scanner.md)
 
 Until **June** we want to implement:
 - 3.1.1 Show climate impact score
@@ -221,5 +221,5 @@ The Team Members are:
 - Norman Reimer
 
 <!-- Picture-Link definitions: -->
-[OUCD]: ./resources/Overall_Use_Case_Diagram.drawio.svg "Overall Use Case Diagram"
-[CD]: ./resources/Class_Diagram.drawio.svg "Class Diagram"
+[OUCD]: ../resources/Overall_Use_Case_Diagram.drawio.svg "Overall Use Case Diagram"
+[CD]: ../resources/Class_Diagram.drawio.svg "Class Diagram"
