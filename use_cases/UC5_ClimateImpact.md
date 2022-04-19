@@ -1,7 +1,7 @@
 # Show climate impact score
 The climate impact score gives a rough estimation about the product's 
 impact on the environment. It is calculated, based on the information 
-fetches from Open Food Facts. The score ranges from 0 to 10 (0 is the worst 
+fetched from Open Food Facts. The score ranges from 0 to 10 (0 is the worst 
 and 10 the best). Additionally, the score is highlighted in colors from red 
 to green based on the rating.
 
@@ -9,7 +9,8 @@ to green based on the rating.
 ## 1.1 Basic Flow
 - user opens product page of a specific product ([search bar](./UC1_Searchbar.md)/[barcode](./UC4_Scanner.md))
 - information is fetched from the database
-- information is shown in dedicated section of product page
+- climate impact score is calculated
+- climate impact score is shown in dedicated section of product page
 
 ### 1.1.1 Activity Diagram
 ![Activity Diagram](../resources/UC5_ClimateImpact.drawio.svg)
