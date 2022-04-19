@@ -14,7 +14,7 @@ The score ranges from 1 to 5 and is displayed in a star-like manner.
 ![Activity Diagram](../resources/UC6_ShowRating.drawio.svg)
 
 ### 1.1.2 Mock-up
-![Ingredients Screenshot](../resources/Ingredients.png)
+![Ingredients Screenshot](../resources/Ingredients_ratings.PNG)
 
 ### 1.1.3 Narrative
 (n/a)
