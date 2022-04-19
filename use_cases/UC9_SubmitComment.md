@@ -1,16 +1,15 @@
-# Submit rating
-Users can give their opinion on a specific product. The rating ranges from 1 
-to 5 stars. Furthermore, the user can provide a comment to explain his 
-rating to other users. 
+# Submit comment
+Users can provide their rating with a comment to explain it to other users. 
 # 1 Flow of Events
 ## 1.1 Basic Flow
 - user opens product page of a specific product ([search bar](./UC1_Searchbar.md)/[barcode](./UC4_Scanner.md))
 - user clicks on the desired amount of stars
+- user enters a comment
 - user clicks on the checkmark to submit his comment
 - comment is saved to the database
 
 ### 1.1.1 Activity Diagram
-![Activity Diagram](../resources/UC7_SubmitRating.drawio.svg)
+![Activity Diagram](../resources/UC9_SubmitComment.drawio.svg)
 
 ### 1.1.2 Mock-up
 ![Ingredients Screenshot](../resources/Ingredients_ratings.PNG)
@@ -19,17 +18,19 @@ rating to other users.
 (n/a)
 
 ## 1.2 Alternative Flows
-The user does not provide a rating: 
+The comment contains inadmissible content:
 - user opens product page of a specific product ([search bar](./UC1_Searchbar.md)/[barcode](./UC4_Scanner.md))
-- the user wants to submit his rating
-- the submit button is disabled
+- user clicks on the desired amount of stars
+- user enters a inadmissible comment
+- the user submits his rating
+- the user gets an error message which tells him to alter his comments content
 
 # 2 Special Requirements
 (n/a)
 
 # 3 Preconditions
-- user knows which specific product he wants to rate
-- the user is logged in 
+- user knows which specific product he wants to rate and comment
+- the user is logged in
 
 # 4 Postconditions
 (n/a)

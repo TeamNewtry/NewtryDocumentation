@@ -1,4 +1,4 @@
-# Show user rating
+# Show comments
 The user comments give additional information about the user rating. They 
 are displayed below a user rating.
 # 1 Flow of Events
