@@ -110,14 +110,20 @@ This document is primarily addressed to the team members who are responsible for
 
 | Title                                                                   | Date       | Publishing organization   |
 | ------------------------------------------------------------------------|:----------:| ------------------------- |
-| [Blog](https://newtry.ionae.de/)                                        | Oct. 2018  | Newtry                    |  
-| [GitHub Repository](https://github.com/TeamNewtry/Newtry)               | Oct. 2018  | Newtry                    |
-| [UC1 XX](../use_cases/UC1_XX.md)                                        | Oct. 2018  | Newtry                    |
-| [UC2 XX](../use_cases/UC2_XX.md)                                        | Oct. 2018  | Newtry                    |
-| [UC3 XX](../use_cases/UC3_XX.md)                                        | Oct. 2018  | Newtry                    |
-| [Test Plan](./test_plan.md)                                             | Apr. 2019  | Newtry                    |
-| [SRS](./SRS.md)                                                         | Oct. 2018  | Newtry                    |
-| [SAD](./SAD.md)                                                         | Oct. 2018  | Newtry                    |
+| [Blog](https://newtry.ionae.de/)                                        |  04. 2022  | Newtry                    |  
+| [GitHub Repository](https://github.com/TeamNewtry/Newtry)               |  04. 2022  | Newtry                    |
+| [UC1 Searchbar](../use_cases/UC1_Searchbar.md)                          |  04. 2022  | Newtry                    |
+| [UC2 Ingredients](../use_cases/UC2_Ingredients.md)                      |  04. 2022  | Newtry                    |
+| [UC3 Nutrition](../use_cases/UC3_Nutrition.md)                          |  04. 2022  | Newtry                    |
+| [UC4 Scanner](../use_cases/UC4_Scanner.md)                              |  04. 2022  | Newtry                    |
+| [UC5 ClimateImpact](../use_cases/UC5_ClimateImpact.md)                  |  04. 2022  | Newtry                    |
+| [UC6 ShowRating](../use_cases/UC6_ShowRating.md)                        |  04. 2022  | Newtry                    |
+| [UC7 SubmitRating](../use_cases/UC7_SubmitRating.md)                    |  04. 2022  | Newtry                    |
+| [UC8 ShowComments](../use_cases/UC8_ShowComments.md)                    |  04. 2022  | Newtry                    |
+| [UC9 SubmitComments](../use_cases/UC9_SubmitComments.md)                |  04. 2022  | Newtry                    |
+| [Test Plan](./test_plan.md)                                             |  04. 2022  | Newtry                    |
+| [SRS](./SRS.md)                                                         |  04. 2022  | Newtry                    |
+| [SAD](./SAD.md)                                                         |  04. 2022  | Newtry                    |
 
 ## 2. Evaluation Mission and Test Motivation
 
