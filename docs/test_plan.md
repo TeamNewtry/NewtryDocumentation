@@ -3,45 +3,45 @@
 ## Table of contents
 
 - [1. Introduction](#1-introduction)
-  * [1.1 Purpose](#11-purpose)
-  * [1.2 Scope](#12-scope)
-  * [1.3 Intended Audience](#13-intended-audience)
-  * [1.4 Document Terminology and Acronyms](#14-document-terminology-and-acronyms)
-  * [1.5  References](#15--references)
-  * [1.6 Document Structure](#16-document-structure)
+    * [1.1 Purpose](#11-purpose)
+    * [1.2 Scope](#12-scope)
+    * [1.3 Intended Audience](#13-intended-audience)
+    * [1.4 Document Terminology and Acronyms](#14-document-terminology-and-acronyms)
+    * [1.5  References](#15--references)
+    * [1.6 Document Structure](#16-document-structure)
 - [2. Evaluation Mission and Test Motivation](#2-evaluation-mission-and-test-motivation)
-  * [2.1 Background](#21-background)
-  * [2.2 Evaluation Mission](#22-evaluation-mission)
-  * [2.3 Test Motivators](#23-test-motivators)
+    * [2.1 Background](#21-background)
+    * [2.2 Evaluation Mission](#22-evaluation-mission)
+    * [2.3 Test Motivators](#23-test-motivators)
 - [3. Target Test Items](#3-target-test-items)
 - [4. Outline of Planned Tests](#4-outline-of-planned-tests)
-  * [4.1 Outline of Test Inclusions](#41-outline-of-test-inclusions)
-  * [4.2 Outline of Other Candidates for Potential Inclusion](#42-outline-of-other-candidates-for-potential-inclusion)
-  * [4.3 Outline of Test Exclusions](#43-outline-of-test-exclusions)
+    * [4.1 Outline of Test Inclusions](#41-outline-of-test-inclusions)
+    * [4.2 Outline of Other Candidates for Potential Inclusion](#42-outline-of-other-candidates-for-potential-inclusion)
+    * [4.3 Outline of Test Exclusions](#43-outline-of-test-exclusions)
 - [5. Test Approach](#5-test-approach)
-  * [5.1 Initial Test-Idea Catalogs and Other Reference Sources](#51-initial-test-idea-catalogs-and-other-reference-sources)
-  * [5.2 Testing Techniques and Types](#52-testing-techniques-and-types)
-    + [5.2.1 Data and Database Integrity Testing](#521-data-and-database-integrity-testing)
-    + [5.2.2 Functional Testing](#522-functional-testing)
-    + [5.2.3 Business Cycle Testing](#523-business-cycle-testing)
-    + [5.2.4 User Interface Testing](#524-user-interface-testing)
-    + [5.2.5 Performance Profiling](#525-performance-profiling)
-    + [5.2.6 Load Testing](#526-load-testing)
-    + [5.2.7 Stress Testing](#527-stress-testing)
-    + [5.2.8 Volume Testing](#528-volume-testing)
-    + [5.2.9 Security and Access Control Testing](#529-security-and-access-control-testing)
-    + [5.2.10 Failover and Recovery Testing](#5210-failover-and-recovery-testing)
-    + [5.2.11 Configuration Testing](#5211-configuration-testing)
-    + [5.2.12 Installation Testing](#5212-installation-testing)
+    * [5.1 Initial Test-Idea Catalogs and Other Reference Sources](#51-initial-test-idea-catalogs-and-other-reference-sources)
+    * [5.2 Testing Techniques and Types](#52-testing-techniques-and-types)
+        + [5.2.1 Data and Database Integrity Testing](#521-data-and-database-integrity-testing)
+        + [5.2.2 Functional Testing](#522-functional-testing)
+        + [5.2.3 Business Cycle Testing](#523-business-cycle-testing)
+        + [5.2.4 User Interface Testing](#524-user-interface-testing)
+        + [5.2.5 Performance Profiling](#525-performance-profiling)
+        + [5.2.6 Load Testing](#526-load-testing)
+        + [5.2.7 Stress Testing](#527-stress-testing)
+        + [5.2.8 Volume Testing](#528-volume-testing)
+        + [5.2.9 Security and Access Control Testing](#529-security-and-access-control-testing)
+        + [5.2.10 Failover and Recovery Testing](#5210-failover-and-recovery-testing)
+        + [5.2.11 Configuration Testing](#5211-configuration-testing)
+        + [5.2.12 Installation Testing](#5212-installation-testing)
 - [6. Entry and Exit Criteria](#6-entry-and-exit-criteria)
-  * [6.1 Test Plan](#61-test-plan)
-    + [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)
-    + [6.1.2 Test Plan Exit Criteria](#612-test-plan-exit-criteria)
-    + [6.1.3 Suspension and Resumption Criteria](#613-suspension-and-resumption-criteria)
-  * [6.2 Test Cycles](#62-test-cycles)
-      - [6.2.1 Test Cycle Entry Criteria](#621-test-cycle-entry-criteria)
-      - [6.2.2 Test Cycle Exit Criteria](#622-test-cycle-exit-criteria)
-      - [6.2.3 Test Cycle Abnormal Termination](#623-test-cycle-abnormal-termination)
+    * [6.1 Test Plan](#61-test-plan)
+        + [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)
+        + [6.1.2 Test Plan Exit Criteria](#612-test-plan-exit-criteria)
+        + [6.1.3 Suspension and Resumption Criteria](#613-suspension-and-resumption-criteria)
+    * [6.2 Test Cycles](#62-test-cycles)
+        - [6.2.1 Test Cycle Entry Criteria](#621-test-cycle-entry-criteria)
+        - [6.2.2 Test Cycle Exit Criteria](#622-test-cycle-exit-criteria)
+        - [6.2.3 Test Cycle Abnormal Termination](#623-test-cycle-abnormal-termination)
 - [7. Deliverables](#7-deliverables)
 - [7.1 Test Evaluation Summaries](#71-test-evaluation-summaries)
 - [7.2 Reporting on Test Coverage](#72-reporting-on-test-coverage)
@@ -49,19 +49,19 @@
 - [7.4 Incident Logs and Change Requests](#74-incident-logs-and-change-requests)
 - [7.5 Smoke Test Suite and Supporting Test Scripts](#75-smoke-test-suite-and-supporting-test-scripts)
 - [7.6      Additional Work Products](#76------additional-work-products)
-  * [7.6.1     Detailed Test Results](#761-----detailed-test-results)
-  * [7.6.2     Additional Automated Functional Test Scripts](#762-----additional-automated-functional-test-scripts)
-  * [7.6.3     Test Guidelines](#763-----test-guidelines)
-  * [7.6.4     Traceability Matrices](#764-----traceability-matrices)
+    * [7.6.1     Detailed Test Results](#761-----detailed-test-results)
+    * [7.6.2     Additional Automated Functional Test Scripts](#762-----additional-automated-functional-test-scripts)
+    * [7.6.3     Test Guidelines](#763-----test-guidelines)
+    * [7.6.4     Traceability Matrices](#764-----traceability-matrices)
 - [8. Testing Workflow](#8-testing-workflow)
 - [9. Environmental Needs](#9-environmental-needs)
-  * [9.1 Base System Hardware](#91-base-system-hardware)
-  * [9.2 Base Software Elements in the Test Environment](#92-base-software-elements-in-the-test-environment)
-  * [9.3 Productivity and Support Tools](#93-productivity-and-support-tools)
-  * [9.4 Test Environment Configurations](#94-test-environment-configurations)
+    * [9.1 Base System Hardware](#91-base-system-hardware)
+    * [9.2 Base Software Elements in the Test Environment](#92-base-software-elements-in-the-test-environment)
+    * [9.3 Productivity and Support Tools](#93-productivity-and-support-tools)
+    * [9.4 Test Environment Configurations](#94-test-environment-configurations)
 - [10. Responsibilities, Staffing, and Training Needs](#10-responsibilities--staffing--and-training-needs)
-  * [10.1 People and Roles](#101-people-and-roles)
-  * [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)
+    * [10.1 People and Roles](#101-people-and-roles)
+    * [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)
 - [11. Iteration Milestones](#11-iteration-milestones)
 - [12. Risks, Dependencies, Assumptions, and Constraints](#12-risks--dependencies--assumptions--and-constraints)
 - [13. Management Process and Procedures](#13-management-process-and-procedures)
@@ -70,27 +70,35 @@
 
 ### 1.1 Purpose
 
-The purpose of the Iteration Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. It describes the approach to testing the software.
-This Test Plan for Newtry supports the following objectives:
+The purpose of the Iteration Test Plan is to gather all of the information
+necessary to plan and control the test effort for a given iteration. It
+describes the approach to testing the software. This Test Plan for Newtry
+supports the following objectives:
 
 - Identifies the items that should be targeted by the tests.
 - Identifies the motivation for and ideas behind the test areas to be covered.
 - Outlines the testing approach that will be used.
-- Identifies the required resources and provides an estimate of the test efforts.
+- Identifies the required resources and provides an estimate of the test
+  efforts.
 
 ### 1.2 Scope
 
-This document describes the procedure of testing in the Newtry project. For Newtry following types of testing are planned:
+This document describes the procedure of testing in the Newtry project. For
+Newtry following types of testing are planned:
 
 - Unit tests
 - Integration tests
 - Exploratory testing
 
-Test for security and performance will be avoided due to not publishing Newtry in the near future. In addition, basic security is currently fundamentally guaranteed by the technology used.
+Test for security and performance will be avoided due to not publishing Newtry
+in the near future. In addition, basic security is currently fundamentally
+guaranteed by the technology used.
 
 ### 1.3 Intended Audience
 
-This document is primarily addressed to the team members who are responsible for testing. It provides an overview in the testing process for the team during implementation.
+This document is primarily addressed to the team members who are responsible for
+testing. It provides an overview in the testing process for the team during
+implementation.
 
 ### 1.4 Document Terminology and Acronyms
 
@@ -129,16 +137,28 @@ This document is primarily addressed to the team members who are responsible for
 
 ### 2.1 Background
 
-Testing is an important part of every tech project. By testing with different tools for different purposes you are able to detect bugs for being able to fix them before publishing code. Thinking about what might happen when bugs are published leads to attention for good code which leads to the testing aspect. To ensure having a stable version of Newtry a few testing strategies should be implemented.
+Testing is an important part of every tech project. By testing with different
+tools for different purposes you are able to detect bugs for being able to fix
+them before publishing code. Thinking about what might happen when bugs are
+published leads to attention for good code which leads to the testing aspect. To
+ensure having a stable version of Newtry a few testing strategies should be
+implemented.
 
 ### 2.2 Evaluation Mission
 
-During testing phase, we want to find as many functionality-critical bugs as possible to ensure that the software quality is good enough for being used. Furthermore, we want to see how stable and resilient the software can be. In addition, testing should detect a lot of minor bugs related to UI/UX as well.
+During testing phase, we want to find as many functionality-critical bugs as
+possible to ensure that the software quality is good enough for being used.
+Furthermore, we want to see how stable and resilient the software can be. In
+addition, testing should detect a lot of minor bugs related to UI/UX as well.
 
 ### 2.3 Test Motivators
 
-Main motivation of testing is finding bugs early so they don't become a big problem later. Also important is quality, which means the software is well implemented on the one hand and delivers what it is supposed to deliver on the other hand. 
-Last but not least, testing gives you peace of mind when adding new features because testing verifies that everything works after modifying the code.
+Main motivation of testing is finding bugs early so they don't become a big
+problem later. Also important is quality, which means the software is well
+implemented on the one hand and delivers what it is supposed to deliver on the
+other hand. Last but not least, testing gives you peace of mind when adding new
+features because testing verifies that everything works after modifying the
+code.
 
 ## 3. Target Test Items
 
@@ -151,7 +171,7 @@ Last but not least, testing gives you peace of mind when adding new features bec
 
 *Frontend: React Native*:
 
-- UI testing of Components 
+- UI testing of Components
 - Unit testing
 - Integration testing
 
@@ -177,10 +197,7 @@ Tests which are not taken into account:
 
 ## 5. Test Approach
 
-[The Test Approach presents the recommended strategy for designing and implementing the required tests. Sections 3, Target Test Items, and 4, Outline of Planned Tests, identified what items will be tested and what types of tests would be performed. This section describes how those tests will be realized.
-One aspect to consider for the test approach is the techniques to be used. This should include an outline of how each technique can be implemented, both from a manual and/or an automated perspective, and the criterion for knowing that the technique is useful and successful. For each technique, provide a description of the technique and define why it is an important part of the test approach by briefly outlining how it helps achieve the Evaluation Mission or addresses the Test Motivators.
-Another aspect to discuss in this section is the Fault or Failure models that are applicable and ways to approach evaluating them.
-As you define each aspect of the approach, you should update section 10, Responsibilities, Staffing, and Training Needs, to document the test environment configuration and other resources that will be needed to implement each aspect.]
+[The Test Approach presents the recommended strategy for designing and implementing the required tests. Sections 3, Target Test Items, and 4, Outline of Planned Tests, identified what items will be tested and what types of tests would be performed. This section describes how those tests will be realized. One aspect to consider for the test approach is the techniques to be used. This should include an outline of how each technique can be implemented, both from a manual and/or an automated perspective, and the criterion for knowing that the technique is useful and successful. For each technique, provide a description of the technique and define why it is an important part of the test approach by briefly outlining how it helps achieve the Evaluation Mission or addresses the Test Motivators. Another aspect to discuss in this section is the Fault or Failure models that are applicable and ways to approach evaluating them. As you define each aspect of the approach, you should update section 10, Responsibilities, Staffing, and Training Needs, to document the test environment configuration and other resources that will be needed to implement each aspect.]
 
 ### 5.1 Initial Test-Idea Catalogs and Other Reference Sources
 
@@ -242,23 +259,36 @@ As you define each aspect of the approach, you should update section 10, Respons
 
 #### 5.2.5 Performance Profiling
 
-[Performance profiling is a performance test in which response times, transaction rates, and other time-sensitive requirements are measured and evaluated. The goal of Performance Profiling is to verify performance requirements have been achieved. Performance profiling is implemented and executed to profile and tune a target-of-test's performance behaviors as a function of conditions, such as workload or hardware configurations.
+[Performance profiling is a performance test in which response times,
+transaction rates, and other time-sensitive requirements are measured and
+evaluated. The goal of Performance Profiling is to verify performance
+requirements have been achieved. Performance profiling is implemented and
+executed to profile and tune a target-of-test's performance behaviors as a
+function of conditions, such as workload or hardware configurations.
 
-Note: Transactions in the following table refer to "logical business transactions". These transactions are defined as specific use cases that an actor of the system is expected to perform using the target-of-test, such as add or modify a given contract.]
+Note: Transactions in the following table refer to "logical business
+transactions". These transactions are defined as specific use cases that an
+actor of the system is expected to perform using the target-of-test, such as add
+or modify a given contract.]
 
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
 |Technique Objective    |   [Exercise behaviors for designated functional transactions or business functions under the following conditions to observe and log target behavior and application performance data:; normal anticipated workload; anticipated worst-case workload]  |
 |Technique              |   [Use Test Procedures developed for Function or Business Cycle Testing.; Modify data files to increase the number of transactions or the scripts to increase the number of iterations that occur in each transaction.; Scripts should be run on one machine (best case is to benchmark single user, single transaction) and should be repeated with multiple clients (virtual or actual, see Special Considerations below).]  |
-|Oracles                |  	[Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]   |
+|Oracles                |    [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]   |
 |Required Tools         |   [The technique requires the following tools:; Test Script Automation Tool; an application performance profiling tool, such as Rational Quantify; installation-monitoring tools (registry, hard disk, CPU, memory, and so on; resourse-constraining tools; for example, Canned Heat]  |
 |Success Criteria       |  [The technique supports testing:; Single Transaction or single user: Successful emulation of the transaction scripts without any failures due to test implementation problems.; Multiple transactions or multiple users: Successful emulation of the workload without any failures due to test implementation problems.]   |
 |Special Considerations |  [Comprehensive performance testing includes having a background workload on the server.; There are several methods that can be used to perform this, including:; "Drive transactions" directly to the server, usually in the form of Structured Query Language (SQL) calls.; Create "virtual" user load to simulate many clients, usually several hundred. Remote Terminal Emulation tools are used to accomplish this load. This technique can also be used to load the network with "traffic".; Use multiple physical clients, each running test scripts, to place a load on the system.; Performance testing should be performed on a dedicated machine or at a dedicated time. This permits full control and accurate measurement.; The databases used for Performance Testing should be either actual size or scaled equally.]   |
 
-
 #### 5.2.6 Load Testing
 
-[Load testing is a performance test that subjects the target-of-test to varying workloads to measure and evaluate the performance behaviors and abilities of the target-of-test to continue to function properly under these different workloads. The goal of load testing is to determine and ensure that the system functions properly beyond the expected maximum workload. Additionally, load testing evaluates the performance characteristics, such as response times, transaction rates, and other time-sensitive issues.
+[Load testing is a performance test that subjects the target-of-test to varying
+workloads to measure and evaluate the performance behaviors and abilities of the
+target-of-test to continue to function properly under these different workloads.
+The goal of load testing is to determine and ensure that the system functions
+properly beyond the expected maximum workload. Additionally, load testing
+evaluates the performance characteristics, such as response times, transaction
+rates, and other time-sensitive issues.
 
 [Note: Transactions in the following table refer to "logical business transactions". These transactions are defined as specific functions that an end user of the system is expected to perform using the application, such as add or modify a given contract.]
 
@@ -271,10 +301,16 @@ Note: Transactions in the following table refer to "logical business transaction
 |Success Criteria       |  [The technique supports the testing of Workload Emulation, which is the successful emulation of the workload without any failures due to test implementation problems.]   |
 |Special Considerations |  [Load testing should be performed on a dedicated machine or at a dedicated time. This permits full control and accurate measurement.; The databases used for load testing should be either actual size or scaled equally.]   |
 
-
 #### 5.2.7 Stress Testing
 
-[Stress testing is a type of performance test implemented and executed to understand how a system fails due to conditions at the boundary, or outside of, the expected tolerances. This typically involves low resources or competition for resources. Low resource conditions reveal how the target-of-test fails that is not apparent under normal conditions. Other defects might result from competition for shared resources, like database locks or network bandwidth, although some of these tests are usually addressed under functional and load testing.
+[Stress testing is a type of performance test implemented and executed to
+understand how a system fails due to conditions at the boundary, or outside of,
+the expected tolerances. This typically involves low resources or competition
+for resources. Low resource conditions reveal how the target-of-test fails that
+is not apparent under normal conditions. Other defects might result from
+competition for shared resources, like database locks or network bandwidth,
+although some of these tests are usually addressed under functional and load
+testing.
 
 [Note: References to transactions in the following table refer to logical business transactions.]
 
@@ -287,7 +323,6 @@ Note: Transactions in the following table refer to "logical business transaction
 |Success Criteria       |  [The technique supports the testing of Stress Emulation. The system can be emulated successfully in one or more conditions defined as stress conditions, and an observation of the resulting system state, during and after the condition has been emulated, can be captured.]   |
 |Special Considerations |  [Stressing the network may require network tools to load the network with messages or packets.; The persistent storage used for the system should temporarily be reduced to restrict the available space for the database to grow.; Synchronize the simultaneous clients accessing of the same records or data accounts.]   |
 
-
 #### 5.2.8 Volume Testing
 
 [Volume testing subjects the target-of-test to large amounts of data to determine if limits are reached that cause the software to fail. Volume testing also identifies the continuous maximum load or volume the target-of-test can handle for a given period. For example, if the target-of-test is processing a set of database records to generate a report, a Volume Test would use a large test database, and would check that the software behaved normally and produced the correct report.]
@@ -298,9 +333,8 @@ Note: Transactions in the following table refer to "logical business transaction
 |Technique              |  [Use tests developed for Performance Profiling or Load Testing.; Multiple clients should be used, either running the same tests or complementary tests to produce the worst-case transaction volume or mix (see Stress Testing) for an extended period.; Maximum database size is created (actual, scaled, or filled with representative data), and multiple clients are used to run queries and report transactions simultaneously for extended periods.]]   |
 |Oracles                |   [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]  |
 |Required Tools         |   [The technique requires the following tools:; Test Script Automation Tool; Transaction load scheduling and control tool; installation-monitoring tools (registry, hard disk, CPU, memory, and so on; resource-constraining tools; for example, Canned Heat; data-generation tools]  |
-|Success Criteria       |  	[The technique supports the testing of Volume Emulation. Large quantities of users, data, transactions, or other aspects of the system use under volume can be successfully emulated and an observation of the system state changes over the duration of the volume test can be captured.]   |
+|Success Criteria       |    [The technique supports the testing of Volume Emulation. Large quantities of users, data, transactions, or other aspects of the system use under volume can be successfully emulated and an observation of the system state changes over the duration of the volume test can be captured.]   |
 |Special Considerations |  [What period of time would be considered an acceptable time for high volume conditions, as noted above?]   |
-
 
 #### 5.2.9 Security and Access Control Testing
 
@@ -315,10 +349,11 @@ Note: Transactions in the following table refer to "logical business transaction
 |Success Criteria       |  [The technique supports the testing of the appropriate functions or data affected by security settings can be tested for each known actor type.]   |
 |Special Considerations |  [Access to the system must be reviewed or discussed with the appropriate network or systems administrator. This testing may not be required as it may be a function of network or systems administration.]   |
 
-
 #### 5.2.10 Failover and Recovery Testing
 
-[Failover and recovery testing ensures that the target-of-test can successfully failover and recover from a variety of hardware, software, or network malfunctions with undue loss of data or data integrity.
+[Failover and recovery testing ensures that the target-of-test can successfully
+failover and recover from a variety of hardware, software, or network
+malfunctions with undue loss of data or data integrity.
 
 [For those systems that must be kept running, failover testing ensures that when a failover condition occurs, the alternate or backup systems properly "take over" for the failed system without any loss of data or transactions.; Recovery testing is an antagonistic test process in which the application or system is exposed to extreme conditions, or simulated conditions, to cause a failure, such as device Input/Output (I/O) failures, or invalid database pointers and keys. Recovery processes are invoked, and the application or system is monitored and inspected to verify proper application, or system, and data recovery has been achieved.]
 
@@ -330,7 +365,6 @@ Note: Transactions in the following table refer to "logical business transaction
 |Required Tools         |  [The technique requires the following tools:; base configuration imager and restorer; installation-monitoring tools (registry, hard disk, CPU, memory, and so on; backup and recovery tools]  |
 |Success Criteria       |  [The technique supports the testing of:; One of more simulated disasters involving one or more combinations of the application, database, and system.; One or more simulated recoveries involving one or more combinations of the application, database, and system to a known desired state.  ] |
 |Special Considerations |  [Recovery testing is highly intrusive. Procedures to disconnect cabling (simulating power or communication loss) may not be desirable or feasible. Alternative methods, such as diagnostic software tools may be required.; Resources from the Systems (or Computer Operations), Database, and Networking groups are required.; These tests should be run after hours or on an isolated machine.]  |
-
 
 #### 5.2.11 Configuration Testing
 
@@ -345,7 +379,6 @@ Note: Transactions in the following table refer to "logical business transaction
 |Success Criteria       |   [The technique supports the testing of one or more combinations of the target test items running in expected, supported deployment environments.]  |
 |Special Considerations |   [What non-target-of-test software is needed, is available, and is accessible on the desktop?; What applications are typically used?; What data are the applications running; for example, a large spreadsheet opened in Excel or a 100-page document in Word?; The entire systems' netware, network servers, databases, and so on, also need to be documented as part of this test.]  |
 
-
 #### 5.2.12 Installation Testing
 
 [Installation testing has two purposes. The first is to ensure that the software can be installed under different conditions (such as a new installation, an upgrade, and a complete or custom installation) under normal and abnormal conditions. Abnormal conditions include insufficient disk space, lack of privilege to create directories, and so on. The second purpose is to verify that, once installed, the software operates correctly. This usually means running a number of tests that were developed for Function Testing.]
@@ -359,22 +392,25 @@ Note: Transactions in the following table refer to "logical business transaction
 |Success Criteria       |   [The technique supports the testing of the installation of the developed product in one or more installation configurations.]  |
 |Special Considerations |   [What transactions should be selected to comprise a confidence test that application has been successfully installed and no major software components are missing?]  |
 
-
 ## 6. Entry and Exit Criteria
 
 ### 6.1 Test Plan
 
 #### 6.1.1 Test Plan Entry Criteria
 
-When a code pipeline runs during deployment, the tests described above for Frontend and Backend (except for exploratory tests) should be triggered automatically.
+When a code pipeline runs during deployment, the tests described above for
+Frontend and Backend (except for exploratory tests) should be triggered
+automatically.
 
 #### 6.1.2 Test Plan Exit Criteria
 
-The test plan should be finished when every test has passed. 
+The test plan should be finished when every test has passed.
 
 #### 6.1.3 Suspension and Resumption Criteria
 
-If there is a feature that isn't ready yet, but you want to check if the rest works, a test can be suspended. However, this must be reinstated before publication at the latest.
+If there is a feature that isn't ready yet, but you want to check if the rest
+works, a test can be suspended. However, this must be reinstated before
+publication at the latest.
 
 ### 6.2 Test Cycles
 
@@ -390,26 +426,29 @@ Exit after getting the data.
 
 Termination after too many attempts.
 
-
 ## 7. Deliverables
 
 ## 7.1 Test Evaluation Summaries
 
-The tests create summaries independently. After the pipeline has passed, we are able to inspect those summaries.
+The tests create summaries independently. After the pipeline has passed, we are
+able to inspect those summaries.
 
 ## 7.2 Reporting on Test Coverage
 
-TODO
-
-[Provide a brief outline of both the form and content of the reports used to measure the extent of testing, and indicate how frequently they will be produced. Give an dication as to the method and tools used to record, measure, and report on the extent of testing.]
-
+Coverage Reported by Jest:
+![Coverage Report](https://github.com/TeamNewtry/NewtryDocumentation/blob/main/resources/coverage_report.PNG?raw=true)
+[Latest Coverage Report](https://github.com/TeamNewtry/Newtry/blob/main/coverage/lcov-report/index.html)
 ## 7.3 Perceived Quality Reports
 
 For code quality we use ES Lint.
 
 ## 7.4 Incident Logs and Change Requests
 
-An agile process model is used throughout the project, including a [Kanbanboard](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-118/current) on which the tasks and bugs can be seen. For code changes github provides Merge-Requests which can be created each time a feature branch needs to be merged into the main branch.
+An agile process model is used throughout the project, including
+a [Kanbanboard](https://dhbw-karlsruhe.myjetbrains.com/youtrack/agiles/108-118/current)
+on which the tasks and bugs can be seen. For code changes github provides
+Merge-Requests which can be created each time a feature branch needs to be
+merged into the main branch.
 
 ## 8. Testing Workflow
 
@@ -419,68 +458,45 @@ An agile process model is used throughout the project, including a [Kanbanboard]
 
 ## 9. Environmental Needs
 
-[This section presents the non-human resources required for the Test Plan.]
+This section presents the non-human resources required for the Test Plan.
 
 ### 9.1 Base System Hardware
 
-[The specific elements of the test system may not be fully understood in early iterations, so expect this section to be completed over time. We recommend that the system simulates the production environment, scaling down the concurrent access and database size, if and where appropriate.]
-
-The following table sets forth the system resources for the test effort presented in this Test Plan.
+The following table sets forth the system resources for the test effort
+presented in this Test Plan.
 
 | Resource                                                                | Quantity | Name and Type |
 |-------------------------------------------------------------------------|----------|---------------|
-| Database Server                                                         |          |               |
-| - Network or Subnet                                                     |          | TBD           |
-| - Server Name                                                           |          | TBD           |
-| - Database Name                                                         |          | TBD           |
-| Client Test PCs                                                         |          |               |
-| - Include special configuration requirements                            |          | TBD           |
-| Test Repository                                                         |          |               |
-| - Network or Subnet                                                     |          | TBD           |
-| - Server Name                                                           |          | TBD           |
-| Test Development PCs                                                    |          | TBD           |
+| Firebase Server                                                         |     1     |      API Provider / Database         |
+| OpenFoodFacts Server                                                         |     1     |      API Provider / Database         |
+| GitHub CI/CD                                                         |          |      Testing, version control         |
 
 ### 9.2 Base Software Elements in the Test Environment
 
-The following base software elements are required in the test environment for this Test Plan.
-
-[These are examples!]
+The following base software elements are required in the test environment for
+this Test Plan
 
 | Software Element Name |  Type and Other Notes                        |
 |-----------------------|----------------------------------------------|
-| Android Studio        | Test Runner / IDE                            |
-| IntelliJ              | Test Runner / IDE                            |
-| JUnit 4               | Unit testing library                         |
-| Espresso              | UI testing library                           |
-| Cucumber              | human readable test definitions              |
-
-[These are examples!]
+| Jest        | Test framework                            |
+| React-native        | Framework                            |
+| WebStorm        | Test Runner/ IDE                            |
 
 ### 9.3 Productivity and Support Tools
 
-The following tools will be employed to support the test process for this Test Plan.
+The following tools will be employed to support the test process for this Test
+Plan.
 
 | Tool Category or Type             | Tool Brand Name | Vendor or In-house | Version |
 |-----------------------------------|-----------------|--------------------|---------|
-| Test Management                   |                 |                    |         |
-| Defect Tracking                   |                 |                    |         |
-| ASQ Tool for functional testing   |                 |                    |         |
-| ASQ Tool for performance testing  |                 |                    |         |
-| Test Coverate Monitor or Profiler |                 |                    |         |
-| Project Management                |                 |                    |         |
-| DBMS tools                        |                 |                    |         |
+| Test Management                   |         Jest        |      Meta             |     latest    |
+| Test Coverage Monitor or Profiler |       Jest          |      Meta              |     latest    |
+| Project Management                |       YouTrack          |   JetBrains                 |  latest       |
+| DBMS tools                        |       Firebase          |   Google                 |  latest       |
 
 ### 9.4 Test Environment Configurations
 
-The following Test Environment Configurations need to be provided and supported for this project.
-
-| Configuration Name                | Description | Implemented in Physical Configuration |
-|-----------------------------------|-------------|---------------------------------------|
-| Average user configuration        |             |                                       |
-| Minimal configuration supported   |             |                                       |
-| Visually and mobility challenged  |             |                                       |
-| International Double Byte OS      |             |                                       |
-| Network installation (not client) |             |                                       |
+n/a
 
 ## 10. Responsibilities, Staffing, and Training Needs
 
@@ -502,7 +518,8 @@ This table shows the staffing assumptions for the test effort.
 
 ### 10.2 Staffing and Training Needs
 
-This section outlines how to approach staffing and training the test roles for the project.
+This section outlines how to approach staffing and training the test roles for
+the project.
 
 [The way to approach staffing and training will vary from project to project. If this section is part of a Master Test Plan, you should indicate at what points in the project lifecycle different skills and numbers of staff are needed. If this is an Iteration Test Plan, you should focus mainly on where and what training might occur during the Iteration. Give thought to your training needs, and plan to schedule this based on a Just-In-Time (JIT) approach—there is often a temptation to attend training too far in advance of its usage when the test team has apparent slack. Doing this introduces the risk of the training being forgotten by the time it's needed. Look for opportunities to combine the purchase of productivity tools with training on those tools, and arrange with the vendor to delay delivery of the training until just before you need it. If you have enough headcount, consider having training delivered in a customized manner for you, possibly at your own site. The test team often requires the support and skills of other team members not directly part of the test team. Make sure you arrange in your plan for appropriate availability of System Administrators, Database Administrators, and Developers who are required to enable the test effort.]
 
@@ -514,8 +531,8 @@ The test coverage should be at least 20%.
 
 | Risk                                    | Mitigation Strategy                                           | Contingency (Risk is realized)                                                                              |
 |-----------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Prerequisite Entry Criteria is not met. |  Tester  will define the prerequisites that must be met before Load Testing can start.  Customer  will endeavor to meet prerequisites indicated by  Tester .          | meet outstanding prerequisites consider Load Test Failure                                                   |
-| Test data proves to be inadequate.      |  Customer  will ensure a full set of suitable and protected test data is available. br/  Tester  will indicate what is required and will verify suitability of test data. | redefine test data review Test Plan and modify Components (that is, scripts) consider Load Test Failure |
+| Prerequisite Entry Criteria is not met. |  Tester  will define the prerequisites that must be met before Load Testing can start. Customer  will endeavor to meet prerequisites indicated by  Tester .          | meet outstanding prerequisites consider Load Test Failure                                                   |
+| Test data proves to be inadequate.      |  Customer  will ensure a full set of suitable and protected test data is available. br/ Tester  will indicate what is required and will verify suitability of test data. | redefine test data review Test Plan and modify Components (that is, scripts) consider Load Test Failure |
 | Database requires a refresh.            |  System Administrator  will endeavor to ensure that the Database is regularly refreshed as required by the  Tester .                                                      | restore data and restart clear Database                                                                     |
 
 ## 13. Management Process and Procedures
