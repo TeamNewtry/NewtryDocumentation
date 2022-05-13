@@ -529,9 +529,9 @@ The test coverage should be at least 20%.
 
 | Risk                                    | Mitigation Strategy                                           | Contingency (Risk is realized)                                                                              |
 |-----------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Prerequisite Entry Criteria is not met. |  Tester  will define the prerequisites that must be met before Load Testing can start. Customer  will endeavor to meet prerequisites indicated by  Tester .          | meet outstanding prerequisites consider Load Test Failure                                                   |
-| Test data proves to be inadequate.      |  Customer  will ensure a full set of suitable and protected test data is available. br/ Tester  will indicate what is required and will verify suitability of test data. | redefine test data review Test Plan and modify Components (that is, scripts) consider Load Test Failure |
-| Database requires a refresh.            |  System Administrator  will endeavor to ensure that the Database is regularly refreshed as required by the  Tester .                                                      | restore data and restart clear Database                                                                     |
+| Code is not written in a testable way            | refactor code for better testability | publish new refactored code                                                                     |
+| test runner is not able to execute tests            | mock react/firebase dependencies | fix test execution configuration                                                                 |
+| UI tests fail         | UI updated? Yes: create new snapshot No: refactor code | publish refactored code                                                                 |
 
 ## 13. Management Process and Procedures
 
