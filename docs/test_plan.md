@@ -197,26 +197,23 @@ Tests which are not taken into account:
 
 ## 5. Test Approach
 
-[The Test Approach presents the recommended strategy for designing and implementing the required tests. Sections 3, Target Test Items, and 4, Outline of Planned Tests, identified what items will be tested and what types of tests would be performed. This section describes how those tests will be realized. One aspect to consider for the test approach is the techniques to be used. This should include an outline of how each technique can be implemented, both from a manual and/or an automated perspective, and the criterion for knowing that the technique is useful and successful. For each technique, provide a description of the technique and define why it is an important part of the test approach by briefly outlining how it helps achieve the Evaluation Mission or addresses the Test Motivators. Another aspect to discuss in this section is the Fault or Failure models that are applicable and ways to approach evaluating them. As you define each aspect of the approach, you should update section 10, Responsibilities, Staffing, and Training Needs, to document the test environment configuration and other resources that will be needed to implement each aspect.]
-
 ### 5.1 Initial Test-Idea Catalogs and Other Reference Sources
 
-[Provide a listing of existing resources that will be referenced to stimulate the identification and selection of specific tests to be conducted. An example Test-Ideas Catalog is provided in the examples section of RUP.]
+n/a
 
 ### 5.2 Testing Techniques and Types
 
 #### 5.2.1 Data and Database Integrity Testing
 
-[The databases and the database processes should be tested as an independent subsystem. This testing should test the subsystems without the target-of-test's User Interface as the interface to the data. Additional research into the DataBase Management System (DBMS) needs to be performed to identify the tools and techniques that may exist to support the testing identified in the following table.]
 
-|                       | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-|Technique Objective    | [Exercise database access methods and processes independent of the UI so you can observe and log incorrectly functioning target behavior or data corruption.]                  |
-|Technique              | [Invoke each database access method and process, seeding each with valid and invalid data or requests for data. Inspect the database to ensure the data has been populated as intended and all database events have occurred properly, or review the returned data to ensure that the correct data was retrieved for the correct reasons.]   |
-|Oracles                | [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.] |
-|Required Tools         | [The technique requires the following tools: Test Script Automation Tool; base configuration imager and restorer; backup and recovery tools; installation-monitoring tools (registry, hard disk, CPU, memory, and so on); database SQL utilities and tools; data-generation tools]                    |
-|Success Criteria       | [The technique supports the testing of all key database access methods and processes.]    |
-|Special Considerations | [Testing may require a DBMS development environment or drivers to enter or modify data directly in the database.; Processes should be invoked manually.; Small or minimally sized databases (with a limited number of records) should be used to increase the visibility of any non-acceptable events.]                                                                 |
+|                       | Description                                                                          |
+|-----------------------|--------------------------------------------------------------------------------------|
+|Technique Objective    | Test the database with API calls                                                     |
+|Technique              | Invokes the database access methods with API calls                                   |
+|Oracles                | Database returns the correct and expected data with their coressponding status codes |
+|Required Tools         | Postman                                                                              |
+|Success Criteria       | All requests pass as expected                                                        |
+|Special Considerations | -                                                                                    |
 
 #### 5.2.2 Functional Testing
 
