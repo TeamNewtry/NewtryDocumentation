@@ -206,67 +206,37 @@ n/a
 #### 5.2.1 Data and Database Integrity Testing
 
 
-|                       | Description                                                                          |
-|-----------------------|--------------------------------------------------------------------------------------|
-|Technique Objective    | Test the database with API calls                                                     |
-|Technique              | Invokes the database access methods with API calls                                   |
+|                       | Description                                                                         |
+|-----------------------|-------------------------------------------------------------------------------------|
+|Technique Objective    | Test the database with API calls                                                    |
+|Technique              | Invoke the database access methods with API calls                                   |
 |Oracles                | Database returns the correct and expected data with their coressponding status codes |
-|Required Tools         | Postman                                                                              |
-|Success Criteria       | All requests pass as expected                                                        |
-|Special Considerations | -                                                                                    |
+|Required Tools         | Postman                                                                             |
+|Success Criteria       | All requests pass as expected                                                       |
+|Special Considerations | -                                                                                   |
 
 #### 5.2.2 Functional Testing
 
-[Function testing of the target-of-test should focus on any requirements for test that can be traced directly to use cases or business functions and business rules. The goals of these tests are to verify proper data acceptance, processing, and retrieval, and the appropriate implementation of the business rules. This type of testing is based upon black box techniques; that is, verifying the application and its internal processes by interacting with the application via the Graphical User Interface (GUI) and analyzing the output or results. The following table identifies an outline of the testing recommended for each application.]
-
-|                       | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-|Technique Objective    |  [Exercise target-of-test functionality, including navigation, data entry, processing, and retrieval to observe and log target behavior.]  |
-|Technique              |  [Exercise each use-case scenario's individual use-cases flows or functions and features, using valid and invalid data, to verify that:; the expected results occur when valid data is used; the appropriate error or warning messages are displayed when invalid data is used; each business rule is properly applied]  |
-|Oracles                |  [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be mad, and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]  |
-|Required Tools         |  [The technique requires the following tools:; Test Script Automation Tool; base configuration imager and restorer; backup and recovery tools; installation-monitoring tools (registry, hard disk, CPU, memory, and so on); data-generation tools]  |
-|Success Criteria       |  [The technique supports the testing of:; all key use-case scenarios; all key features ] |
-|Special Considerations |  [Identify or describe those items or issues (internal or external) that impact the implementation and execution of function test.]  |
+n/a
 
 #### 5.2.3 Business Cycle Testing
 
-[Business Cycle Testing should emulate the activities performed on the  Project Name  over time. A period should be identified, such as one year, and transactions and activities that would occur during a year's period should be executed. This includes all daily, weekly, and monthly cycles, and events that are date-sensitive, such as ticklers.]
-
-|                       | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-|Technique Objective    |  [Exercise target-of-test and background processes according to required business models and schedules to observe and log target behavior.]   |
-|Technique              |  [Testing will simulate several business cycles by performing the following:; The tests used for target-of-test's function testing will be modified or enhanced to increase the number of times each function is executed to simulate several different users over a specified period.; All time or date-sensitive functions will be executed using valid and invalid dates or time periods.; All functions that occur on a periodic schedule will be executed or launched at the appropriate time.; Testing will include using valid and invalid data to verify the following:; The expected results occur when valid data is used.;The appropriate error or warning messages are displayed when invalid data is used.;Each business rule is properly applied.]   |
-|Oracles                |   [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both the method by which the observation can be made, and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]  |
-|Required Tools         |   [The technique requires the following tools:; Test Script Automation Tool; base configuration imager and restorer; backup and recovery tools; data-generation tools]  |
-|Success Criteria       |  [The technique supports the testing of all critical business cycles.]   |
-|Special Considerations |   [System dates and events may require special support activities.; A business model is required to identify appropriate test requirements and procedures.]  |
+n/a
 
 #### 5.2.4 User Interface Testing
 
-[User Interface (UI) testing verifies a user's interaction with the software. The goal of UI testing is to ensure that the UI provides the user with the appropriate access and navigation through the functions of the target-of-test. In addition, UI testing ensures that the objects within the UI function as expected and conform to corporate, or industry, standards.]
 
-|                       | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-|Technique Objective    |  [Exercise the following to observe and log standards conformance and target behavior:; Navigation through the target-of-test reflecting business functions and requirements, including window-to-window, field-to- field, and use of access methods (tab keys, mouse movements, accelerator keys).; Window objects and characteristics can be exercised-such as menus, size, position, state, and focus.]   |
-|Technique              |  [Create or modify tests for each window to verify proper navigation and object states for each application window and object.]   |
-|Oracles                |  [Outline one or more strategies that can be used by the technique to accurately observe the outcomes of the test. The oracle combines elements of both; the method by which the observation can be made and the characteristics of specific outcome that indicate probable success or failure. Ideally, oracles will be self-verifying, allowing automated tests to make an initial assessment of test pass or failure, however, be careful to mitigate the risks inherent in automated results determination.]   |
-|Required Tools         |   [The technique requires the Test Script Automation Tool.]  |
-|Success Criteria       |   [The technique supports the testing of each major screen or window that will be used extensively by the end user.]  |
-|Special Considerations |   [Not all properties for custom and third party objects can be accessed.]  |
+|                       | Description                                                                                                                                                                          |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Technique Objective    | Test wether the UI generated by the application is correct                                                                                                                           |
+|Technique              | Write JEST (JavaScript) files with test single components. [Further Information](https://jestjs.io/docs/tutorial-react-native)                                                       |
+|Oracles                | Expect the UI to be rendered as expected. Test execution logs are added to the [test coverage report](https://github.com/TeamNewtry/Newtry/blob/main/coverage/lcov-report/index.html) |
+|Required Tools         | JEST                                                                                                                                                                                 |
+|Success Criteria       | All tests pass. Most important components are covered                                                                                                                                |
+|Special Considerations | Mock firebase, react and other dependencies                                                                                                                                          |
 
 #### 5.2.5 Performance Profiling
 
-[Performance profiling is a performance test in which response times,
-transaction rates, and other time-sensitive requirements are measured and
-evaluated. The goal of Performance Profiling is to verify performance
-requirements have been achieved. Performance profiling is implemented and
-executed to profile and tune a target-of-test's performance behaviors as a
-function of conditions, such as workload or hardware configurations.
-
-Note: Transactions in the following table refer to "logical business
-transactions". These transactions are defined as specific use cases that an
-actor of the system is expected to perform using the target-of-test, such as add
-or modify a given contract.]
 
 |                       | Description                                                         |
 |-----------------------|---------------------------------------------------------------------|
