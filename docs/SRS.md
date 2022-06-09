@@ -102,6 +102,8 @@ Project Management:
 
 Deployment:
 - GitHub Actions
+- Codacy (used for metrics and automatic code analysis)
+- DeepScan (used for metrics and automatic code analysis)
 
 Testing:
 - Jest
