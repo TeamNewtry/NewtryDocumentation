@@ -194,10 +194,14 @@ For now, the app will be completely free to use. This may change in the future.
 ### 3.9 Interfaces
 
 #### 3.9.1 User Interfaces
-Will be updated after Mockups are done
+The user interface is an intuitive mobile application with four screens:
+- **Homescreen** with welcome text and search bar.
+- **Scanner view** with camera view
+- **Settings** with login option and language settings
+- **Product page** with all information about a product
 
 #### 3.9.2 Hardware Interfaces
-(n/a)
+No special hardware is required. All that is needed is a smartphone, which should have a working camera and an Internet connection.
 
 #### 3.9.3 Software Interfaces
 The app will be runnable on Android 5 and higher. iOS won't be featured at the moment.
