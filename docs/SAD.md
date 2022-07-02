@@ -145,4 +145,4 @@ The performance of the app hasn't been measured precisely, but using the app fee
 
 ## 11. Quality
 
-n/a
+To control the quality of our application, we use DeepScan and Codacy to create some metrics on issues, code smells and complexity. Our dashboard for Deepscan can be found [here](https://deepscan.io/dashboard/#view=project&tid=17820&pid=21155&bid=599182&prid=&subview=overview) and for Codacy [here](https://app.codacy.com/gh/TeamNewtry/Newtry/dashboard). For more information on our metrics, see [this](https://newtry.ionae.de/?p=344)blogpost. We have also used the HOC design pattern and FLUX architecture to further improve our code quality.
